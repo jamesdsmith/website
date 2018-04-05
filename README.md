@@ -1,2 +1,1 @@
-# website
-Repo for my website
+[http://www.jamesdsmith.net]
