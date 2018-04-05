@@ -1,1 +1,1 @@
-[http://www.jamesdsmith.net]
+http://www.jamesdsmith.net
