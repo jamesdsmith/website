@@ -20,19 +20,43 @@
 					<a class="social-icon" href="https://github.com/jamesdsmith"><span class="fab fa-github"></span></a>
 					<a class="social-icon" href="https://linkedin.com/in/jdsmithcoder"><span class="fab fa-linkedin"></span></a>
 					<a class="social-icon" href="https://scholar.google.com/citations?user=qm5jHocAAAAJ&hl=en"><span class="fab fa-google"></span></a>
-					<p>I am an incoming MS student at UC Berkeley, advised by professor <a href="https://people.eecs.berkeley.edu/~bjoern/">Björn Hartmann</a>. I completed my BS in Electrical Engineering and Computer Science at UC Berkeley.
-					<p>As an undergrad, I was fortunate enough to work with a couple of UC Berkeley's finest PhD students, <a href="http://people.eecs.berkeley.edu/~eschoop/">Eldon Schoop</a> and <a href="https://people.eecs.berkeley.edu/~dfk/">David Fridovich-Keil</a>.</p>
+					<p>I am a first year Computer Science PhD student at UC Berkeley, advised by professor <a href="https://people.eecs.berkeley.edu/~bjoern/">Björn Hartmann</a>. I completed my MS and BS in Electrical Engineering and Computer Science at UC Berkeley.
+					<p>As an undergrad I was fortunate to work PhD students <a href="http://people.eecs.berkeley.edu/~eschoop/">Eldon Schoop</a> and <a href="https://people.eecs.berkeley.edu/~dfk/">David Fridovich-Keil</a>.</p>
 				</div>
 			</header>
 			<main>
 			<section id="research" class="row mb-4">
 				<div class="col">
 					<h3>Research</h3>
-					<p>My research interests are in HCI, Computer Vision, and Signal Processing.</p>
-					<div>
+					<p>My research interests are in HCI, Mixed Reality, and Computer Vision. I focus on creating mixed reality interfaces that utilize computer vision systems to assist users with task completion.</p>
+					<div class="project">
 						<div class="row">
 							<div class="col-md-12">
-								<h4 class="subsection">HindSight</h4>
+								<h4 class="subsection">LabelAR: A Spatial Guidance Interface for Fast Computer Vision Image Collection</h4>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-md-3 float-left demo-imgs">
+								<img class="research-thumb img-fluid" src="img/labelar/user.jpg" alt="User pointing a cell phone at a cup." />
+							</div>
+							<div class="col-md-4 float-left demo-imgs">
+								<img class="research-thumb img-fluid" src="img/labelar/labelar-interfaces.jpg" alt="Cup with holographic cube overlayed. Shows an interface for placing holocubes and also collecting training images." />
+							</div>
+							<div class="col-md-5 float-left demo-imgs">
+								<img class="research-thumb img-fluid" src="img/labelar/bbox-projection.jpg" alt="Depicts the 3d reprojection process from holocube to 2d image annotation." />
+							</div>
+						</div>
+						<div class="row description">
+							<div class="col-md-12">
+								<p>Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. LabelAR leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, LabelAR significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.</p>
+								<p><i>Accepted at UIST 2019</i> - <a href="http://labelar.berkeley.edu">Website</a> - <a href="https://www.youtube.com/watch?v=WwYAClL6MlU">Video</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="project">
+						<div class="row">
+							<div class="col-md-12">
+								<h4 class="subsection">HindSight: Enhancing Spatial Awareness by Sonifying Detected Objects in Real-Time 360-Degree Video</h4>
 							</div>
 						</div>
 						<div class="row ">
@@ -46,7 +70,7 @@
 								<img class="research-thumb img-fluid" src="img/hindsight/filtering_stages_s.jpg" alt="Filtering Stages" />
 							</div>
 						</div>
-						<div class="row">
+						<div class="row description">
 							<div class="col-md-12">
 								<p><i>HindSight</i> increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.</p>
 								<p><i>Presented at CHI 2018</i> - <a href="https://dl.acm.org/citation.cfm?id=3173717">ACM Digital Library</a> - <a href="https://www.youtube.com/watch?v=n5ni9usMkD4">Video</a></p>
@@ -121,7 +145,7 @@
 				<div class="col">
 					<h3>Classes</h3>
 					<p>My undergraduate coursework included the following upper division classes: Signals and Systems, Convex Optimization, Operating Systems, Internet Architecture, CS Theory and Algorithms, Computational Photography, Machine Learning and Computer Vision.</p>
-					<p>I've also taken UC Berkeley's graduate HCI Research course, CS 260B.</p>
+					<p>I've also taken graduate coursework in HCI, AR/VR, Embedded Systems, and Data Visualization. </p>
 				</div>
 			</section>
 			<section id="hobbies" class="row mb-4">
