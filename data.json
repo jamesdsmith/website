@@ -20,6 +20,7 @@
 	"research": [
 		{
 			"title": "LabelAR: A Spatial Guidance Interface for Fast Computer Vision Image Collection",
+			"authors": "Mike Laielli*, <em>James Smith*</em>, Giscard Biamby*, Trevor Darrell, Bjoern Hartmann",
 			"description": "Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.",
 			"venue": "Accepted at UIST 2019",
 			"paper": "papers/labelar.pdf",
@@ -46,6 +47,7 @@
 		{
 			"title": "HindSight: Enhancing Spatial Awareness by Sonifying Detected Objects in Real-Time 360-Degree Video",
 			"description": "<i>HindSight</i> increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.",
+			"authors": "Eldon Schoop, <em>James Smith</em>, Bjoern Hartmann",
 			"venue": "Presented at CHI 2018",
 			"paper": "papers/hindsight.pdf",
 			"video": "https://www.youtube.com/watch?v=n5ni9usMkD4",
@@ -96,6 +98,13 @@
 		}
 	],
 	"jobs": [
+		{
+			"title": "VR Software Engineer", 
+			"location": "UC Berkeley", 
+			"url": "http://jacobsinstitute.berkeley.edu", 
+			"urltext": "Jacobs Institute for Design Innovation",
+			"time": "January 2019 - May 2019"
+		},
 		{
 			"title": "Research Assistant", 
 			"location": "UC Berkeley", 

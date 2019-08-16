@@ -16,8 +16,13 @@ h3 {
 	border-bottom: 4px solid darkgreen;
 }
 
-h4.subsection {
+p.authors {
 	padding-bottom: 0.5em;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+p.authors em {
+	font-weight: bold;
 }
 
 .main-img {
@@ -45,6 +50,7 @@ a.social-icon {
 }
 
 .job-list {
+	padding-top: 1.5em;
 	margin-left: 2em;
 }
 
@@ -53,7 +59,7 @@ a.social-icon {
 }
 
 .job em {
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 div.project {
