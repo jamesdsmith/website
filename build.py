@@ -6,5 +6,5 @@ with open('template.html', 'r') as temp:
         parsed_data = json.loads(data.read())
         template = Template(temp.read())
         site = template.render(parsed_data)
-        with open('index.html', 'w') as out:
+        with open('site/index.html', 'w') as out:
             out.write(site)
