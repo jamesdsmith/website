@@ -1,0 +1,136 @@
+{
+	"social_media": [
+		{
+			"url": "mailto:james.smith deletethis at berkeley.edu",
+			"class": "fas fa-envelope"
+		},
+				{
+			"url": "https://github.com/jamesdsmith",
+			"class": "fab fa-github"
+		},
+		{
+			"url": "https://linkedin.com/in/jdsmithcoder",
+			"class": "fab fa-linkedin"
+		},
+		{
+			"url": "https://scholar.google.com/citations?user=qm5jHocAAAAJ&hl=en",
+			"class": "fab fa-google"
+		}
+	],
+	"research": [
+		{
+			"title": "LabelAR: A Spatial Guidance Interface for Fast Computer Vision Image Collection",
+			"description": "Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.",
+			"venue": "Accepted at UIST 2019",
+			"paper": "papers/labelar.pdf",
+			"website": "http://labelar.berkeley.edu",
+			"video": "https://www.youtube.com/watch?v=WwYAClL6MlU",
+			"images": [
+				{
+					"url": "img/labelar/user.jpg",
+					"alt": "User pointing a cell phone at a cup.",
+					"size": "3"
+				},
+				{
+					"url": "img/labelar/labelar-interfaces.jpg",
+					"alt": "Cup with holographic cube overlayed. Shows an interface for placing holocubes and also collecting training images.",
+					"size": "4"
+				},
+				{
+					"url": "img/labelar/bbox-projection.jpg",
+					"alt": "Depicts the 3d reprojection process from holocube to 2d image annotation.",
+					"size": "5"
+				}
+			]
+		},
+		{
+			"title": "HindSight: Enhancing Spatial Awareness by Sonifying Detected Objects in Real-Time 360-Degree Video",
+			"description": "<i>HindSight</i> increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.",
+			"venue": "Presented at CHI 2018",
+			"paper": "papers/hindsight.pdf",
+			"video": "https://www.youtube.com/watch?v=n5ni9usMkD4",
+			"acmdl": "https://dl.acm.org/citation.cfm?id=3173717",
+			"images": [
+				{
+					"url": "img/hindsight/donut_diagram_s.jpg",
+					"alt": "HindSight Sensing Diagram",
+					"size": "4"
+				},
+				{
+					"url": "img/hindsight/lbd_s.jpg",
+					"alt": "System Diagram",
+					"size": "4"
+				},
+				{
+					"url": "img/hindsight/filtering_stages_s.jpg",
+					"alt": "Filtering Stages",
+					"size": "4"
+				}
+			]
+		}
+	],
+	"projects": [
+		{
+			"title": "VirtuWheel",
+			"description": "A major problem with virtual reality is the lack of feedback the user receives during interactions with virtual objects. One solution to this is to use physical props to provide haptic feedback, but this still lacks visual feedback cues that may be helpful or necessary for some tasks. This can negatively affect the user’s sense of embodiment in the virtual space. <i>VirtuWheel</i> provides visual feedback during virtual object interactions by using touch sensors on the surface a steering wheel controller which we can use to visualize interactions with the steering wheel in VR.",
+			"venue": "Completed for EE249A - Embedded Systems",
+			"report": "reports/VirtuWheel.pdf",
+			"video": "https://www.youtube.com/watch?v=wzfDXCfKiVs",
+			"images": [
+				{
+					"url": "img/virtuwheel/system_s.png",
+					"alt": "Components of the VirtuWheel system",
+					"size": "4"
+				},
+				{
+					"url": "img/virtuwheel/vr_s.png",
+					"alt": "Visualization of the interaction in virtual reality",
+					"size": "4"
+				},
+				{
+					"url": "img/virtuwheel/signal_s.png",
+					"alt": "Example of what a signal from our system looks like",
+					"size": "4"
+				}
+			]
+		}
+	],
+	"jobs": [
+		{
+			"title": "Research Assistant", 
+			"location": "UC Berkeley", 
+			"url": "http://bid.berkeley.edu", 
+			"urltext": "Berkeley Institute of Design",
+			"time": "January 2018 - May 2018"
+		},
+		{
+			"title": "Undergraduate Research Assistant", 
+			"location": "UC Berkeley", 
+			"url": "http://bid.berkeley.edu", 
+			"urltext": "Berkeley Institute of Design",
+			"time": "June 2017 - December 2017"
+		},
+		{
+			"title": "Undergraduate Research Assistant",
+			"location": "UC Berkeley",
+			"url": "http://www-video.eecs.berkeley.edu/",
+			"urltext": "Video and Image Processing Lab",
+			"time": "November 2015 - January 2017"
+		},
+		{
+			"title": "Math and Physics Tutor",
+			"location": "Sierra College",
+			"time": "January 2014 - May 2015"
+		},
+		{
+			"title": "Gameplay Programmer",
+			"location": "Sony Online Entertainment",
+			"time": "June 2008 - October 2010"
+		},
+		{
+			"title": "Gameplay Programmer",
+			"location": "Zombie Studios",
+			"time": "May 2005 - June 2008"
+		}
+	]
+}
