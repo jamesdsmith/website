@@ -2,19 +2,23 @@
 	"social_media": [
 		{
 			"url": "mailto:james.smith deletethis at berkeley.edu",
-			"class": "fas fa-envelope"
+			"class": "fas fa-envelope",
+			"name": "email"
 		},
 				{
 			"url": "https://github.com/jamesdsmith",
-			"class": "fab fa-github"
+			"class": "fab fa-github",
+			"name": "github"
 		},
 		{
 			"url": "https://linkedin.com/in/jdsmithcoder",
-			"class": "fab fa-linkedin"
+			"class": "fab fa-linkedin",
+			"name": "linked in"
 		},
 		{
 			"url": "https://scholar.google.com/citations?user=qm5jHocAAAAJ&hl=en",
-			"class": "fab fa-google"
+			"class": "fab fa-google",
+			"name": "google scholar"
 		}
 	],
 	"research": [

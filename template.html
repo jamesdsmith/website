@@ -50,7 +50,7 @@
 					<img class="main-img" src="img/avatar.png" />
 					<h1>James Smith</h1>
 					{% for sm in social_media %}
-					<a class="social-icon" href="{{sm.url}}"><span class="{{sm.class}}"></span></a>
+					<a class="social-icon" href="{{sm.url}}"><span aria-hidden="true" class="{{sm.class}}"></span><span class="sr-only">{{sm.name}}</span></a>
 					{% endfor %}
 					<p>I am a first year Computer Science PhD student at UC Berkeley, advised by professor <a href="https://people.eecs.berkeley.edu/~bjoern/">Björn Hartmann</a>. I completed my MS and BS in Electrical Engineering and Computer Science at UC Berkeley.
 					<p>As an undergrad I was fortunate to work with PhD students <a href="http://people.eecs.berkeley.edu/~eschoop/">Eldon Schoop</a> and <a href="https://people.eecs.berkeley.edu/~dfk/">David Fridovich-Keil</a>.</p>
