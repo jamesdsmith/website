@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="style.css" />
 		<!-- Font Awesome -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 		<title>James Smith</title>
 	</head>
 	<body>
@@ -23,7 +24,7 @@
 					
 					<a class="social-icon" href="https://linkedin.com/in/jdsmithcoder"><span aria-hidden="true" class="fab fa-linkedin"></span><span class="sr-only">linked in</span></a>
 					
-					<a class="social-icon" href="https://scholar.google.com/citations?user=qm5jHocAAAAJ&hl=en"><span aria-hidden="true" class="fab fa-google"></span><span class="sr-only">google scholar</span></a>
+					<a class="social-icon" href="https://scholar.google.com/citations?user=qm5jHocAAAAJ&hl=en"><span aria-hidden="true" class="ai ai-google-scholar-square"></span><span class="sr-only">google scholar</span></a>
 					
 					<p>I am a first year Computer Science PhD student at UC Berkeley, advised by professor <a href="https://people.eecs.berkeley.edu/~bjoern/">Björn Hartmann</a>. I completed my MS and BS in Electrical Engineering and Computer Science at UC Berkeley.
 					<p>As an undergrad I was fortunate to work with PhD students <a href="http://people.eecs.berkeley.edu/~eschoop/">Eldon Schoop</a> and <a href="https://people.eecs.berkeley.edu/~dfk/">David Fridovich-Keil</a>.</p>
@@ -32,7 +33,7 @@
 			<main>
 			<section id="research" class="row mb-4">
 				<div class="col">
-					<h3>Research</h3>
+					<h2>Research</h2>
 					<p>My research interests are in HCI, Mixed Reality, and Computer Vision. I focus on creating mixed reality interfaces that utilize computer vision systems to assist users with task completion.</p>
 					
 					<div class="project">
@@ -46,6 +47,13 @@
 								<p class="authors">Mike Laielli*, <em>James Smith*</em>, Giscard Biamby*, Trevor Darrell, Bjoern Hartmann</p>
 							</div>
 						</div>
+						
+						<div class="row venue">
+							<div class="col-md-12">
+								<p class="venue">UIST 2019</p>
+							</div>
+						</div>
+						
 						<div class="row preview-imgs">
 							
 							<div class="col-md-3 demo-imgs">
@@ -65,7 +73,6 @@
 							<div class="col-md-12">
 								<p>Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.</p>
 								<p>
-								<i>Accepted at UIST 2019</i> - 
 								
 								<a href="papers/labelar.pdf">Paper</a> - 
 								
@@ -87,6 +94,13 @@
 								<p class="authors">Eldon Schoop, <em>James Smith</em>, Bjoern Hartmann</p>
 							</div>
 						</div>
+						
+						<div class="row venue">
+							<div class="col-md-12">
+								<p class="venue">CHI 2018</p>
+							</div>
+						</div>
+						
 						<div class="row preview-imgs">
 							
 							<div class="col-md-4 demo-imgs">
@@ -106,7 +120,6 @@
 							<div class="col-md-12">
 								<p><i>HindSight</i> increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.</p>
 								<p>
-								<i>Presented at CHI 2018</i> - 
 								<a href="https://dl.acm.org/citation.cfm?id=3173717">ACM Digital Library</a> - 
 								<a href="papers/hindsight.pdf">Paper</a> - 
 								
@@ -121,7 +134,7 @@
 			</section>
 			<section id="projects" class="row mb-4">
 				<div class="col">
-					<h3>Projects</h3>
+					<h2>Projects</h2>
 					<p>Projects completed in classes or as side projects. Sometimes these are conducted to practice the research process and may contain 3-5 page project reports.</p>
 					
 					<div class="project">
@@ -132,9 +145,16 @@
 						</div>
 						<div class="row authors">
 							<div class="col-md-12">
-								<p class="authors"></p>
+								<p class="authors"><em>James Smith</em>, Raquel Izquierdo, Caitlin Kwan, Greg Giebel</p>
 							</div>
 						</div>
+						
+						<div class="row venue">
+							<div class="col-md-12">
+								<p class="venue">Completed for EE249A - Embedded Systems</p>
+							</div>
+						</div>
+						
 						<div class="row preview-imgs">
 							
 							<div class="col-md-4 demo-imgs">
@@ -154,7 +174,6 @@
 							<div class="col-md-12">
 								<p>A major problem with virtual reality is the lack of feedback the user receives during interactions with virtual objects. One solution to this is to use physical props to provide haptic feedback, but this still lacks visual feedback cues that may be helpful or necessary for some tasks. This can negatively affect the user’s sense of embodiment in the virtual space. <i>VirtuWheel</i> provides visual feedback during virtual object interactions by using touch sensors on the surface a steering wheel controller which we can use to visualize interactions with the steering wheel in VR.</p>
 								<p>
-								<i>Completed for EE249A - Embedded Systems</i> - 
 								
 								
 								<a href="reports/VirtuWheel.pdf">Report</a> - 
@@ -169,7 +188,7 @@
 			</section>
 			<section id="work" class="row mb-4">
 				<div class="col">
-					<h3>Work Experience</h3>
+					<h2>Work Experience</h2>
 					<p>I am currently looking for internship opportunities in research and software engineering. Prior to returning to school, I enjoyed a career as a gameplay programmer in the video game industry. Designing interactive experiences is still an interest of mine.</p>
 					<div class="job-list">
 						
@@ -213,14 +232,14 @@
 			</section>
 			<section id="classes" class="row mb-4">
 				<div class="col">
-					<h3>Classes</h3>
+					<h2>Classes</h2>
 					<p>My undergraduate coursework included the following upper division classes: Signals and Systems, Convex Optimization, Operating Systems, Internet Architecture, CS Theory and Algorithms, Computational Photography, Machine Learning and Computer Vision.</p>
 					<p>I've also taken graduate coursework in HCI, AR/VR, Embedded Systems, and Data Visualization. </p>
 				</div>
 			</section>
 			<section id="hobbies" class="row mb-4">
 				<div class="col">
-					<h3>Hobbies</h3>
+					<h2>Hobbies</h2>
 					<p>When I'm not doing research or programming, I like to snowboard, go bouldering, ride my motorcycle, or play D&D. I am also an <a href="https://www.worldcubeassociation.org/persons/2017SMIT09">amatuer speedcuber</a>.</p>
 				</div>
 			</section>
