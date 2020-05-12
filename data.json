@@ -27,7 +27,7 @@
 			"authors": "Mike Laielli*, <em>James Smith*</em>, Giscard Biamby*, Trevor Darrell, Bjoern Hartmann",
 			"description": "Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.",
 			"venue": "UIST 2019",
-			"paper": "papers/labelar.pdf",
+			"paper": "papers/LabelAR.pdf",
 			"website": "http://labelar.berkeley.edu",
 			"video": "https://www.youtube.com/watch?v=WwYAClL6MlU",
 			"images": [
@@ -53,7 +53,7 @@
 			"description": "<i>HindSight</i> increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.",
 			"authors": "Eldon Schoop, <em>James Smith</em>, Bjoern Hartmann",
 			"venue": "CHI 2018",
-			"paper": "papers/hindsight.pdf",
+			"paper": "papers/HindSight.pdf",
 			"video": "https://www.youtube.com/watch?v=n5ni9usMkD4",
 			"acmdl": "https://dl.acm.org/citation.cfm?id=3173717",
 			"images": [
