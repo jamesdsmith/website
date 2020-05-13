@@ -17,6 +17,20 @@
 							</div>
 						</div>
 						{% endif %}
+						{% if 'best-paper' in p %}
+						<div class="row award">
+							<div class="col-md-12">
+								<p class="award"><img class="award" src="img/trophy.png" />Best Paper Award</p>
+							</div>
+						</div>
+						{% endif %}
+						{% if 'honorable-mention' in p %}
+						<div class="row award">
+							<div class="col-md-12">
+								<p class="award"><img class="award" src="img/ribbon.png" />Nominated for Best Paper Award</p>
+							</div>
+						</div>
+						{% endif %}
 						<div class="row preview-imgs">
 							{% for im in p.images %}
 							<div class="col-md-{{im.size}} demo-imgs">
