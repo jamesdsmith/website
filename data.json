@@ -23,6 +23,22 @@
 	],
 	"research": [
 		{
+			"title": "Composing Flexibly-Organized Step-by-Step Tutorials from Linked Source Code, Snippets, and Outputs",
+			"authors": "Andrew Head, Jason Jiang, <em>James Smith</em>, Marti A. Hearst, Björn Hartmann",
+			"description": "Programming tutorials are a pervasive, versatile medium for teaching programming. In this paper, we report on the content and structure of programming tutorials, the pain points authors experience in writing them, and a design for a tool to help improve this process. An interview study with 12 experienced tutorial authors found that they construct documents by interleaving code snippets with text and illustrative outputs. It also revealed that authors must often keep the related artifacts of source programs, snippets, and outputs consistent as a program evolves. A content analysis of 200 frequentlyreferenced tutorials on the web also found that most tutorials contain related artifacts—duplicate code and outputs generated from snippets—that an author would need to keep consistent with each other. To address these needs, we designed a tool called Torii with novel authoring capabilities. An in-lab study showed that tutorial authors can successfully use the tool for the unique affordances identified, and provides guidance for designing future tools for tutorial authoring.",
+			"venue": "CHI 2020",
+			"paper": "papers/tutorial-authoring.pdf",
+			"video": "https://www.youtube.com/watch?v=tTzrBds7Nns",
+			"honorable-mention": true,
+			"images": [
+				{
+					"url": "img/torii/tutorial-authoring.jpg",
+					"alt": "Diagram showing program execution order.",
+					"size": "3"
+				}
+			]
+		},
+		{
 			"title": "LabelAR: A Spatial Guidance Interface for Fast Computer Vision Image Collection",
 			"authors": "Mike Laielli*, <em>James Smith*</em>, Giscard Biamby*, Trevor Darrell, Bjoern Hartmann",
 			"description": "Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.",
