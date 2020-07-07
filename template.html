@@ -20,14 +20,14 @@
 						{% if 'best-paper' in p %}
 						<div class="row award">
 							<div class="col-md-12">
-								<p class="award"><img class="award" src="img/trophy.png" />Best Paper Award</p>
+								<p class="award"><img class="award" src="img/trophy.png" alt="Best Paper Award" />Best Paper Award</p>
 							</div>
 						</div>
 						{% endif %}
 						{% if 'honorable-mention' in p %}
 						<div class="row award">
 							<div class="col-md-12">
-								<p class="award"><img class="award" src="img/ribbon.png" />Nominated for Best Paper Award</p>
+								<p class="award"><img class="award" src="img/ribbon.png" alt="Nominated for Best Paper Award" />Nominated for Best Paper Award</p>
 							</div>
 						</div>
 						{% endif %}
@@ -68,7 +68,7 @@
 		<div class="container">
 			<header class="row mt-4 mb-4">
 				<div id="header" class="col">
-					<img class="main-img" src="img/avatar.png" />
+					<img class="main-img" src="img/avatar.png" alt="Picture of James Smith" />
 					<h1>James Smith</h1>
 					{% for sm in social_media %}
 					<a class="social-icon" href="{{sm.url}}"><span aria-hidden="true" class="{{sm.class}}"></span><span class="sr-only">{{sm.name}}</span></a>
@@ -83,7 +83,9 @@
 					<h2>Research</h2>
 					<p>My research interests are in HCI, Mixed Reality, and Computer Vision. I focus on creating mixed reality interfaces that utilize computer vision systems to assist users with task completion.</p>
 					{% for res in research %}
+					{% if not res.pubonly %}
 					{{ project(res) }}
+					{% endif %}
 					{% endfor %}
 				</div>
 			</section>
@@ -93,6 +95,30 @@
 					<p>Projects completed in classes or as side projects. Sometimes these are conducted to practice the research process and may contain 3-5 page project reports.</p>
 					{% for proj in projects %}
 					{{ project(proj) }}
+					{% endfor %}
+				</div>
+			</section>
+			<section id="publication" class="row mb-4">
+				<div class="col">
+					<h2 class="publication">Publications</h2>
+					{% for p in research %}
+					<div class="publication">
+						<span class="authors">{{p.authors}},</span>
+						{% if 'best-paper' in p %}
+						<span class="award"><img class="award" src="img/trophy.png" alt="Best Paper Award" />Best Paper Award</span>
+						{% endif %}
+						{% if 'honorable-mention' in p %}
+						<img class="award" src="img/ribbon.png" alt="Nominated for Best Paper Award" />
+						{% endif %}
+						<span class="title"> 
+							{% if p.acmdl %}
+							<a href="{{p.acmdl}}">{{p.title}}</a>,
+							{% else %}
+							{{p.title}},
+							{% endif %}
+						</span>
+						<span class="venue"> {{p.venue}}</span>
+					</div>
 					{% endfor %}
 				</div>
 			</section>

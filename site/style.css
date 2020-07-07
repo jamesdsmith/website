@@ -21,31 +21,44 @@ h2 {
 }
 
 
-p.authors {
+.authors {
 	font-family: Helvetica, Arial, sans-serif;
 	margin-bottom: 0px;
 }
 
-p.authors em {
+.authors em {
 	font-weight: bold;
 }
 
-p.venue {
+.title{
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 0px;
+}
+
+.venue {
 	font-style: italic;
 	font-family: helvetica, arial, sans-serif;
 	margin-bottom: 0;
 }
 
-p.award {
+.award {
 	font-size: 12pt;
 	font-family: helvetica, arial, sans-serif;
 	margin-bottom: 0.5em;
+}
+
+.publication {
+	margin-bottom: 1em;
 }
 
 img.award {
 	max-width: 1.5em;
 	max-height: 1.5em;
 	margin-right: 0.5em;
+}
+
+div.publication img.award {
+	margin-right: 0;
 }
 
 .main-img {

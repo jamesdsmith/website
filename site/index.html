@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 	<head>
@@ -15,7 +16,7 @@
 		<div class="container">
 			<header class="row mt-4 mb-4">
 				<div id="header" class="col">
-					<img class="main-img" src="img/avatar.png" />
+					<img class="main-img" src="img/avatar.png" alt="Picture of James Smith" />
 					<h1>James Smith</h1>
 					
 					<a class="social-icon" href="mailto:james.smith deletethis at berkeley.edu"><span aria-hidden="true" class="fas fa-envelope"></span><span class="sr-only">email</span></a>
@@ -36,52 +37,8 @@
 					<h2>Research</h2>
 					<p>My research interests are in HCI, Mixed Reality, and Computer Vision. I focus on creating mixed reality interfaces that utilize computer vision systems to assist users with task completion.</p>
 					
-					<div class="project">
-						<div class="row title">
-							<div class="col-md-12">
-								<h4 class="subsection">Composing Flexibly-Organized Step-by-Step Tutorials from Linked Source Code, Snippets, and Outputs</h4>
-							</div>
-						</div>
-						<div class="row authors">
-							<div class="col-md-12">
-								<p class="authors">Andrew Head, Jason Jiang, <em>James Smith</em>, Marti A. Hearst, Björn Hartmann</p>
-							</div>
-						</div>
-						
-						<div class="row venue">
-							<div class="col-md-12">
-								<p class="venue">CHI 2020</p>
-							</div>
-						</div>
-						
-						
-						
-						<div class="row award">
-							<div class="col-md-12">
-								<p class="award"><img class="award" src="img/ribbon.png" />Nominated for Best Paper Award</p>
-							</div>
-						</div>
-						
-						<div class="row preview-imgs">
-							
-							<div class="col-md-3 demo-imgs">
-								<img class="research-thumb img-fluid" src="img/torii/tutorial-authoring.jpg" alt="Diagram showing program execution order." />
-							</div>
-							
-						</div>
-						<div class="row description">
-							<div class="col-md-12">
-								<p>Programming tutorials are a pervasive, versatile medium for teaching programming. In this paper, we report on the content and structure of programming tutorials, the pain points authors experience in writing them, and a design for a tool to help improve this process. An interview study with 12 experienced tutorial authors found that they construct documents by interleaving code snippets with text and illustrative outputs. It also revealed that authors must often keep the related artifacts of source programs, snippets, and outputs consistent as a program evolves. A content analysis of 200 frequentlyreferenced tutorials on the web also found that most tutorials contain related artifacts—duplicate code and outputs generated from snippets—that an author would need to keep consistent with each other. To address these needs, we designed a tool called Torii with novel authoring capabilities. An in-lab study showed that tutorial authors can successfully use the tool for the unique affordances identified, and provides guidance for designing future tools for tutorial authoring.</p>
-								<p>
-								
-								<a href="papers/tutorial-authoring.pdf">Paper</a> - 
-								
-								
-								<a href="https://www.youtube.com/watch?v=tTzrBds7Nns">Video</a>
-								</p>
-							</div>
-						</div>
-					</div>
+					
+					
 					
 					<div class="project">
 						<div class="row title">
@@ -122,7 +79,7 @@
 							<div class="col-md-12">
 								<p>Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.</p>
 								<p>
-								
+								<a href="https://dl.acm.org/doi/abs/10.1145/3332165.3347927">ACM Digital Library</a> - 
 								<a href="papers/LabelAR.pdf">Paper</a> - 
 								
 								<a href="http://labelar.berkeley.edu">Website</a> - 
@@ -131,6 +88,8 @@
 							</div>
 						</div>
 					</div>
+					
+					
 					
 					<div class="project">
 						<div class="row title">
@@ -171,7 +130,7 @@
 							<div class="col-md-12">
 								<p><i>HindSight</i> increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.</p>
 								<p>
-								<a href="https://dl.acm.org/citation.cfm?id=3173717">ACM Digital Library</a> - 
+								<a href="https://dl.acm.org/doi/abs/10.1145/3173574.3173717">ACM Digital Library</a> - 
 								<a href="papers/HindSight.pdf">Paper</a> - 
 								
 								
@@ -180,6 +139,7 @@
 							</div>
 						</div>
 					</div>
+					
 					
 				</div>
 			</section>
@@ -235,6 +195,50 @@
 								</p>
 							</div>
 						</div>
+					</div>
+					
+				</div>
+			</section>
+			<section id="publication" class="row mb-4">
+				<div class="col">
+					<h2>Publications</h2>
+					
+					<div class="publication">
+						<span class="authors">Andrew Head, Jason Jiang, <em>James Smith</em>, Marti A. Hearst, Björn Hartmann,</span>
+						
+						
+						<img class="award" src="img/ribbon.png" alt="Nominated for Best Paper Award" />
+						
+						<span class="title"> 
+							
+							<a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376798">Composing Flexibly-Organized Step-by-Step Tutorials from Linked Source Code, Snippets, and Outputs</a>,
+							
+						</span>
+						<span class="venue"> CHI 2020</span>
+					</div>
+					
+					<div class="publication">
+						<span class="authors">Mike Laielli*, <em>James Smith*</em>, Giscard Biamby*, Trevor Darrell, Bjoern Hartmann,</span>
+						
+						
+						<span class="title"> 
+							
+							<a href="https://dl.acm.org/doi/abs/10.1145/3332165.3347927">LabelAR: A Spatial Guidance Interface for Fast Computer Vision Image Collection</a>,
+							
+						</span>
+						<span class="venue"> UIST 2019</span>
+					</div>
+					
+					<div class="publication">
+						<span class="authors">Eldon Schoop, <em>James Smith</em>, Bjoern Hartmann,</span>
+						
+						
+						<span class="title"> 
+							
+							<a href="https://dl.acm.org/doi/abs/10.1145/3173574.3173717">HindSight: Enhancing Spatial Awareness by Sonifying Detected Objects in Real-Time 360-Degree Video</a>,
+							
+						</span>
+						<span class="venue"> CHI 2018</span>
 					</div>
 					
 				</div>
