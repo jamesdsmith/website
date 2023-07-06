@@ -23,12 +23,53 @@
 	],
 	"research": [
 		{
+			"title": "Multi-Embodiment in Virtual Reality",
+			"authors": "James Smith, Xinyun Cao, Bjoern Hartmann",
+			"description": "We are investigating questions surrounding the coordinated action of multiple simultaneously controlled VR avatars. People's abilities to control multiple bodies in a coordinated manner raises questions about what types of strategies they employ while in this type of interface, how bodies should be placed given certain task configurations, and questions about how users embody the various avatars. <b>This is current ongoing research.</b>",
+			"venue": "",
+			"nopub": true,
+			"images": [
+				{
+					"url": "img/multibody/multi-body-system.png",
+					"alt": "User pointing a cell phone at a cup.",
+					"size": "8"
+				}
+			]
+		},
+		{
 			"title": "VR or Not? Investigating Interface Type and User Strategies for Interactive Design Space Exploration",
-			"authors": "Ananya Nandy, <em>James Smith</em>, Nicholas Jennings, Mike Kuniavsky, Bjoern Hartmann",
+			"authors": "Ananya Nandy, <em>James Smith</em>, Nicholas Jennings, Mike Kuniavsky, Kosa Goucher-Lambert, Bjoern Hartmann",
 			"description": "Computational design tools can automatically generate large quantities of viable designs for a given design problem. This raises the challenge of how to enable designers to efficiently and effectively evaluate and select preferred designs from a large set of alternatives. In GeneratiVR, we present two novel interaction techniques to address this challenge, by leveraging Virtual Reality for rich, spatial user input. With these interaction methods, users can directly manipulate designs or demonstrate desired design functionality. The interactions allow users to rapidly filter through an expansive design space to specify or find their preferred designs.",
 			"venue": "ICED 23 (Upcoming)",
 			"pubonly": true,
 			"images": [
+			]
+		},
+		{
+			"title": "GeneratiVR: Spatial Interactions in Virtual Reality to Explore Generative Design Spaces",
+			"authors": "Nicholas Jennings, Ananya Nandy, Xinyi Zhu, Yuting Wang, Fanping Sui, <em>James Smith</em>, Bjoern Hartmann",
+			"description": "Computational design tools can automatically generate large quantities of viable designs for a given design problem. This raises the challenge of how to enable designers to efficiently and effectively evaluate and select preferred designs from a large set of alternatives. In GeneratiVR, we present two novel interaction techniques to address this challenge, by leveraging Virtual Reality for rich, spatial user input. With these interaction methods, users can directly manipulate designs or demonstrate desired design functionality. The interactions allow users to rapidly filter through an expansive design space to specify or find their preferred designs.",
+			"venue": "CHI 2022 Extended Abstracts",
+			"paper": "papers/generativr.pdf",
+			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3491101.3519616",
+			"video": "https://youtu.be/qHSx5f6fRts",
+			"poster": true,
+			"images": [
+				{
+					"url": "img/gvr/gvr-system.png",
+					"alt": "User pointing a cell phone at a cup.",
+					"size": "5"
+				},
+				{
+					"url": "img/gvr/gvr-filters.png",
+					"alt": "Cup with holographic cube overlayed. Shows an interface for placing holocubes and also collecting training images.",
+					"size": "5"
+				},
+				{
+					"url": "img/gvr/gvr-screenshot.png",
+					"alt": "Depicts the 3d reprojection process from holocube to 2d image annotation.",
+					"size": "2"
+				}
 			]
 		},
 		{
@@ -115,17 +156,17 @@
 			"images": [
 				{
 					"url": "img/gvr/gvr-system.png",
-					"alt": "User pointing a cell phone at a cup.",
+					"alt": "Diagram showing flow of data in system.",
 					"size": "5"
 				},
 				{
 					"url": "img/gvr/gvr-filters.png",
-					"alt": "Cup with holographic cube overlayed. Shows an interface for placing holocubes and also collecting training images.",
+					"alt": "Depiction of the interactions used in each type of filter.",
 					"size": "5"
 				},
 				{
 					"url": "img/gvr/gvr-screenshot.png",
-					"alt": "Depicts the 3d reprojection process from holocube to 2d image annotation.",
+					"alt": "Screenshot of the VR interface",
 					"size": "2"
 				}
 			]
@@ -160,37 +201,18 @@
 	],
 	"jobs": [
 		{
+			"title": "Research Scientist", 
+			"location": "Microsoft Research", 
+			"url": "https://www.microsoft.com/en-us/research/group/epic/", 
+			"urltext": "EPIC Group",
+			"time": "May 2021 - August 2021"
+		},
+		{
 			"title": "VR Software Engineer", 
 			"location": "UC Berkeley", 
 			"url": "http://jacobsinstitute.berkeley.edu", 
 			"urltext": "Jacobs Institute for Design Innovation",
 			"time": "January 2019 - May 2019"
-		},
-		{
-			"title": "Research Assistant", 
-			"location": "UC Berkeley", 
-			"url": "http://bid.berkeley.edu", 
-			"urltext": "Berkeley Institute of Design",
-			"time": "January 2018 - May 2018"
-		},
-		{
-			"title": "Undergraduate Research Assistant", 
-			"location": "UC Berkeley", 
-			"url": "http://bid.berkeley.edu", 
-			"urltext": "Berkeley Institute of Design",
-			"time": "June 2017 - December 2017"
-		},
-		{
-			"title": "Undergraduate Research Assistant",
-			"location": "UC Berkeley",
-			"url": "http://www-video.eecs.berkeley.edu/",
-			"urltext": "Video and Image Processing Lab",
-			"time": "November 2015 - January 2017"
-		},
-		{
-			"title": "Math and Physics Tutor",
-			"location": "Sierra College",
-			"time": "January 2014 - May 2015"
 		},
 		{
 			"title": "Gameplay Programmer",

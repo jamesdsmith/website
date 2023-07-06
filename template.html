@@ -86,7 +86,7 @@
 					<h2>Research</h2>
 					<p>My research interests are broadly in the domain of Virtual Reality and Embodiment. Currently I am focusing on multiple-embodiments, which are interfaces where users control multiple virtual bodies simultaneously. We are studying people's qualitative experiences in such interfaces, and the strategies people develop for controlling these interfaces. My current work seeks to understand how users can interact and coordinate between many bodies and connecting these concepts to Embodied Cognition and Phenomenology.</p>
 					<p>I also have interest in how VR can augment design processses, in particular the role that VR should play in early stage prototyping of design. Additionally, I am broadly interested in Graphics and Computer Vision research related to VR.</p>
-					<p>In the past, my research ...</p>
+					<p>Previously I did research at the intersection of augmented reality and computer vision, studying interfaces for collecting in-situ training data and augmenting human awareness using computer vision.</p>
 					{% for res in research %}
 					{% if not res.pubonly %}
 					{{ project(res) }}
@@ -98,6 +98,7 @@
 				<div class="col">
 					<h2 class="publication">Publications</h2>
 					{% for p in research %}
+					{% if not p.nopub %}
 					<div class="publication">
 						<span class="authors">{{p.authors}}.</span>
 						{% if 'best-paper' in p %}
@@ -115,30 +116,14 @@
 						</span>
 						<span class="venue"> {{p.venue}}</span>
 					</div>
+					{% endif %}
 					{% endfor %}
 				</div>
 			</section>
-			<section id="posters" class="row mb-4">
-				<div class="col">
-					<h2>Posters</h2>
-					{% for proj in posters %}
-					{{ project(proj) }}
-					{% endfor %}
-				</div>
-			</section>
-			<!-- <section id="projects" class="row mb-4">
-				<div class="col">
-					<h2>Projects</h2>
-					<p>Projects completed in classes or as side projects. Sometimes these are conducted to practice the research process and may contain 3-5 page project reports.</p>
-					{% for proj in projects %}
-					{{ project(proj) }}
-					{% endfor %}
-				</div>
-			</section> -->
 			<section id="work" class="row mb-4">
 				<div class="col">
-					<h2>Work Experience</h2>
-					<p>I am currently looking for internship opportunities in research and software engineering. Prior to returning to school, I enjoyed a career as a gameplay programmer in the video game industry. Designing interactive experiences is still an interest of mine.</p>
+					<h2>Industry Experience</h2>
+					<p>I am currently looking for research scientist internship positions. Prior to academia, I enjoyed a career as a gameplay programmer in the video game industry. Designing interactive experiences is still an interest of mine.</p>
 					<div class="job-list">
 						{% for job in jobs %}
 						<div class="job">
