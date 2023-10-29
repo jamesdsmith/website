@@ -23,16 +23,18 @@
 	],
 	"research": [
 		{
-			"title": "Multi-Embodiment in Virtual Reality",
-			"authors": "James Smith, Xinyun Cao, Bjoern Hartmann",
-			"description": "We are investigating questions surrounding the coordinated action of multiple simultaneously controlled VR avatars. People's abilities to control multiple bodies in a coordinated manner raises questions about what types of strategies they employ while in this type of interface, how bodies should be placed given certain task configurations, and questions about how users embody the various avatars. <b>This is current ongoing research.</b>",
-			"venue": "",
-			"nopub": true,
+			"title": "Dual Body Bimanual Coordination in Immersive Environments",
+			"authors": "<em>James Smith</em>, Xinyun Cao, Adolfo Ramirez-Aristizabal, Bjoern Hartmann",
+			"description": "Dual Body Bimanual Coordination is an empirical study where users control and interact with the world through two bodies in virtual reality simultaneously. Users select and manipulate objects to perform a coordinated handoff between two bodies under the control of a single user. We investigate people's performance in doing this task, classify strategies for how they chose to coordinate their hands, report on sense of embodiment during the scenario, and share qualitative observations about user body schema.",
+			"venue": "DIS 23",
+			"acmdl": "https://dl.acm.org/doi/10.1145/3563657.3596082",
+			"paper": "papers/dbbc.pdf",
+			"video": "https://youtu.be/fWsPGINexYI",
 			"images": [
 				{
-					"url": "img/multibody/multi-body-system.png",
-					"alt": "User pointing a cell phone at a cup.",
-					"size": "8"
+					"url": "img/dbbc/Figure1.png",
+					"alt": "Three part diagram showing two figures handing an object between them. The first is labeled Selection and shows a red figure pointing at an object. The second is labeled Manipulation and shows the red figure holding the object in front of a blue figure. The third is labeled Coordination and shows the blue figure grabbing the object.",
+					"size": "9"
 				}
 			]
 		},
@@ -40,8 +42,10 @@
 			"title": "VR or Not? Investigating Interface Type and User Strategies for Interactive Design Space Exploration",
 			"authors": "Ananya Nandy, <em>James Smith</em>, Nicholas Jennings, Mike Kuniavsky, Kosa Goucher-Lambert, Bjoern Hartmann",
 			"description": "Computational design tools can automatically generate large quantities of viable designs for a given design problem. This raises the challenge of how to enable designers to efficiently and effectively evaluate and select preferred designs from a large set of alternatives. In GeneratiVR, we present two novel interaction techniques to address this challenge, by leveraging Virtual Reality for rich, spatial user input. With these interaction methods, users can directly manipulate designs or demonstrate desired design functionality. The interactions allow users to rapidly filter through an expansive design space to specify or find their preferred designs.",
-			"venue": "ICED 23 (Upcoming)",
+			"venue": "ICED 23",
 			"pubonly": true,
+			"paper": "papers/vr-or-not.pdf",
+			"acmdl": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/vr-or-not-investigating-interface-type-and-user-strategies-for-interactive-design-space-exploration/BFA6CE13915DD825D04B70806CCB70A3",
 			"images": [
 			]
 		},
@@ -96,7 +100,6 @@
 			"description": "Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.",
 			"venue": "UIST 2019",
 			"paper": "papers/LabelAR.pdf",
-			"website": "http://labelar.berkeley.edu",
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3332165.3347927",
 			"video": "https://www.youtube.com/watch?v=WwYAClL6MlU",
 			"images": [
