@@ -23,6 +23,17 @@
 	],
 	"research": [
 		{
+			"title": "What's the Game, then? Opportunities and Challenges for Runtime Behavior Generation",
+			"authors": " Nicholas Jennings, Han Wang, Isabel Li, <em>James Smith</em>, Bjoern Hartmann",
+			"description": "Dual Body Bimanual Coordination is an empirical study where users control and interact with the world through two bodies in virtual reality simultaneously. Users select and manipulate objects to perform a coordinated handoff between two bodies under the control of a single user. We investigate people's performance in doing this task, classify strategies for how they chose to coordinate their hands, report on sense of embodiment during the scenario, and share qualitative observations about user body schema.",
+			"venue": "UIST 24",
+			"pubonly": true,
+			"best-paper": true,
+			"acmdl": "https://dl.acm.org/doi/10.1145/3654777.3676358",
+			"paper": "papers/gromit.pdf",
+			"images": []
+		},
+		{
 			"title": "Dual Body Bimanual Coordination in Immersive Environments",
 			"authors": "<em>James Smith</em>, Xinyun Cao, Adolfo Ramirez-Aristizabal, Bjoern Hartmann",
 			"description": "Dual Body Bimanual Coordination is an empirical study where users control and interact with the world through two bodies in virtual reality simultaneously. Users select and manipulate objects to perform a coordinated handoff between two bodies under the control of a single user. We investigate people's performance in doing this task, classify strategies for how they chose to coordinate their hands, report on sense of embodiment during the scenario, and share qualitative observations about user body schema.",
