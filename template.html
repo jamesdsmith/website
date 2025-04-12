@@ -1,163 +1,226 @@
 {% macro project(p) -%}
-					<div class="project">
-						<div class="row title">
-							<div class="col-md-12">
-								<h4 class="subsection">{{p.title}}</h4>
-							</div>
-						</div>
-						<div class="row authors">
-							<div class="col-md-12">
-								<p class="authors">{{p.authors}}</p>
-							</div>
-						</div>
-						{% if 'venue' in p %}
-						<div class="row venue">
-							<div class="col-md-12">
-								<p class="venue">{{p.venue}}</p>
-							</div>
-						</div>
-						{% endif %}
-						{% if 'best-paper' in p %}
-						<div class="row award">
-							<div class="col-md-12">
-								<p class="award"><img class="award" src="img/trophy.png" alt="Best Paper Award" />Best Paper Award</p>
-							</div>
-						</div>
-						{% endif %}
-						{% if 'honorable-mention' in p %}
-						<div class="row award">
-							<div class="col-md-12">
-								<p class="award"><img class="award" src="img/ribbon.png" alt="Nominated for Best Paper Award" />Nominated for Best Paper Award</p>
-							</div>
-						</div>
-						{% endif %}
-						<div class="row preview-imgs">
-							{% for im in p.images %}
-							<div class="col-md-{{im.size}} demo-imgs">
-								<img class="research-thumb img-fluid" src="{{im.url}}" alt="{{im.alt}}" />
-							</div>
-							{% endfor %}
-						</div>
-						<div class="row description">
-							<div class="col-md-12">
-								<p>{{p.description}}</p>
-								<p>
-								{% if 'acmdl' in p %}<a href="{{p.acmdl}}">ACM Digital Library</a> - {% endif %}
-								{% if 'paper' in p %}<a href="{{p.paper}}">Paper</a> - {% endif %}
-								{% if 'report' in p %}<a href="{{p.report}}">Report</a> - {% endif %}
-								{% if 'website' in p %}<a href="{{p.website}}">Website</a> - {% endif %}
-								{% if 'video' in p %}<a href="{{p.video}}">Video</a>{% endif %}
-								</p>
-							</div>
-						</div>
-					</div>
-{%- endmacro %}<!doctype html>
+<div class="project">
+  <div class="row title">
+    <div class="col-md-12">
+      <h4 class="subsection">{{p.title}}</h4>
+    </div>
+  </div>
+  <div class="row authors">
+    <div class="col-md-12">
+      <p class="authors">{{p.authors}}</p>
+    </div>
+  </div>
+  {% if 'venue' in p %}
+  <div class="row venue">
+    <div class="col-md-12">
+      <p class="venue">{{p.venue}}</p>
+    </div>
+  </div>
+  {% endif %} {% if 'best-paper' in p %}
+  <div class="row award">
+    <div class="col-md-12">
+      <p class="award"><img class="award" src="img/trophy.png" alt="Best Paper Award" />Best Paper Award</p>
+    </div>
+  </div>
+  {% endif %} {% if 'honorable-mention' in p %}
+  <div class="row award">
+    <div class="col-md-12">
+      <p class="award">
+        <img class="award" src="img/ribbon.png" alt="Nominated for Best Paper Award" />Nominated for Best Paper Award
+      </p>
+    </div>
+  </div>
+  {% endif %}
+  <div class="row preview-imgs">
+    {% for im in p.images %}
+    <div class="col-md-{{im.size}} demo-imgs">
+      <img class="research-thumb img-fluid" src="{{im.url}}" alt="{{im.alt}}" />
+    </div>
+    {% endfor %}
+  </div>
+  <div class="row description">
+    <div class="col-md-12">
+      <p>{{p.description}}</p>
+      <p>
+        {% if 'acmdl' in p %}<a href="{{p.acmdl}}">ACM Digital Library</a> - {% endif %} {% if 'paper' in p %}<a
+          href="{{p.paper}}"
+          >Paper</a
+        >
+        - {% endif %} {% if 'report' in p %}<a href="{{p.report}}">Report</a> - {% endif %} {% if 'website' in p %}<a
+          href="{{p.website}}"
+          >Website</a
+        >
+        - {% endif %} {% if 'video' in p %}<a href="{{p.video}}">Video</a>{% endif %}
+      </p>
+    </div>
+  </div>
+</div>
+{%- endmacro %}<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" />
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="style.css" />
-		<!-- Font Awesome -->
-		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-		<title>James Smith</title>
-	</head>
-	<body>
-		<div class="container">
-			<header class="row mt-4 mb-4">
-				<div id="header" class="col">
-					<img class="main-img" src="img/james-lisbon.png" alt="Picture of James Smith" />
-					<h1>James Smith</h1>
-					{% for sm in social_media %}
-					<a class="social-icon" href="{{sm.url}}"><span aria-hidden="true" class="{{sm.class}}"></span><span class="sr-only">{{sm.name}}</span></a>
-					{% endfor %}
-						<p>I am a sixth year Computer Science PhD student at UC Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~bjoern/">Björn Hartmann</a>. I completed my MS and BS in Electrical Engineering and Computer Science at UC Berkeley.</p>
-						<p>During my PhD, I participated in a research internship at Microsoft Research working with <a href="https://www.microsoft.com/en-us/research/people/awilson/">Andy Wilson</a>. I have been supported by Accenture Labs from 2021-2024, working with <a href="https://www.linkedin.com/in/mikek">Mike Kuniavsky</a> and the Digital Experiences team.</p>
-						<p>As an undergrad researcher my mentor was <a href="https://eldon.io/">Eldon Schoop</a>.</p>
-						<p>I am always interested in hearing from undergraduates who are interested in doing AR/VR related research. My goal is to support undergraduate researchers that are interested in pursuing graduate education. These are the students I have mentored: <a href="https://nicholasjj.github.io/">Nicholas Jennings</a> (UC Berkeley MS), <a href="https://xinyun-cao.github.io/">Xinyun Cao</a> (Univ. of Michigan PhD), <a href="https://www.linkedin.com/in/kwk/">Frederick Kim</a> (UC Berkeley MS), <a href="https://www.woojinko.com/">Woojin Ko</a> (Cornell Tech PhD).</p>
-				</div>
-			</header>
-			<main>
-			<section id="announcements" class=""row mb-4">
-				<div class="announcement">
-					<h5>I am currently on the job market!</h5>
-					<p>I am currently looking for teaching faculty positions in academia or research scientist positions in industry. Please reach out if you have a position and would like to chat!</p>
-				</div>
-			</section>
-			<section id="research" class="row mb-4">
-				<div class="col">
-					<h2><span>Research</span></h2>
-					<p>My research interests are primarily understanding the sense of presence while using computer systems. We are able to control digital tools as if they are extensions of our bodies, similar to our relationship with physical tools. Currently I am studying this phenomenon in Virtual Reality interfaces by looking at presence and embodiment of VR users in scenarios where they are immersed in tasks requiring concentration. In particular I am interested in multi-body interfaces where the user can extend their body schema into multiple bodies in VR and do bimanual coordinated tasks across them. My work tries to connect theories from Human Computer Interaction to related concepts in Embodied Cognition and Phenomenology.</p>
-					<p>I also have interest in how VR can augment design processes, in particular the role that VR should play in early stage prototyping of design. Additionally, I am broadly interested in Graphics and Computer Vision research related to VR.</p>
-					<p>Previously I did research at the intersection of augmented reality and computer vision, studying interfaces for collecting in-situ training data and augmenting human awareness using computer vision.</p>
-					{% for res in research %}
-					{% if not res.pubonly %}
-					{{ project(res) }}
-					{% endif %}
-					{% endfor %}
-				</div>
-			</section>
-			<section id="publication" class="row mb-4">
-				<div class="col">
-					<h2 class="publication"><span>Publications</span></h2>
-					{% for p in research %}
-					{% if not p.nopub %}
-					<div class="publication">
-						<span class="authors">{{p.authors}}.</span>
-						{% if 'best-paper' in p %}
-						<span class="award"><img class="award" src="img/trophy.png" alt="Best Paper Award" /></span>
-						{% endif %}
-						{% if 'honorable-mention' in p %}
-						<img class="award" src="img/ribbon.png" alt="Nominated for Best Paper Award" />
-						{% endif %}
-						<span class="title"> 
-							{% if p.acmdl %}
-							<a href="{{p.acmdl}}">{{p.title}}</a>,
-							{% else %}
-							{{p.title}},
-							{% endif %}
-						</span>
-						<span class="venue"> {{p.venue}}</span>
-					</div>
-					{% endif %}
-					{% endfor %}
-				</div>
-			</section>
-			<section id="work" class="row mb-4">
-				<div class="col">
-					<h2><span>Industry Experience</span></h2>
-					<p>I am currently looking for research scientist or teaching faculty positions. Prior to academia, I enjoyed a career as a gameplay programmer in the video game industry. Designing interactive experiences is still an interest of mine.</p>
-					<div class="job-list">
-						{% for job in jobs %}
-						<div class="job">
-							<h5>{{job.title}}{% if 'url' in job %}, <a href="{{job.url}}">{{job.urltext}}</a>{% endif %} - {{job.location}}</h5>
-							<em>{{job.time}}</em>
-						</div>
-						{% endfor %}
-					</div>
-				</div>
-			</section>
-			<section id="classes" class="row mb-4">
-				<div class="col">
-					<h2><span>Classes</span></h2>
-					<p>My undergraduate coursework included the following upper division classes: Signals and Systems, Convex Optimization, Operating Systems, Internet Architecture, CS Theory and Algorithms, Computational Photography, Machine Learning and Computer Vision.</p>
-					<p>I've also taken graduate coursework in HCI, AR/VR, Embedded Systems, and Data Visualization. </p>
-				</div>
-			</section>
-			<section id="hobbies" class="row mb-4">
-				<div class="col">
-					<h2><span>Hobbies</span></h2>
-					<p>When I'm not doing research or programming, I like to snowboard, go bouldering, ride my motorcycle, or play D&D. I am also an <a href="https://www.worldcubeassociation.org/persons/2017SMIT09">amatuer speedcuber</a>.</p>
-				</div>
-			</section>
-			</main>
-		</div>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+    <title>James Smith</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row mt-4 mb-4">
+        <div id="header" class="col">
+          <img class="main-img" src="img/james-lisbon.png" alt="Picture of James Smith" />
+          <h1>James Smith</h1>
+          {% for sm in social_media %}
+          <a class="social-icon" href="{{sm.url}}"
+            ><span aria-hidden="true" class="{{sm.class}}"></span><span class="sr-only">{{sm.name}}</span></a
+          >
+          {% endfor %}
+          <p>
+            I am a sixth year Computer Science PhD student at UC Berkeley, advised by
+            <a href="https://people.eecs.berkeley.edu/~bjoern/">Björn Hartmann</a>. I completed my MS and BS in
+            Electrical Engineering and Computer Science at UC Berkeley.
+          </p>
+          <p>
+            During my PhD, I participated in a research internship at Microsoft Research working with
+            <a href="https://www.microsoft.com/en-us/research/people/awilson/">Andy Wilson</a>. I have been supported by
+            Accenture Labs from 2021-2024, working with
+            <a href="https://www.linkedin.com/in/mikek">Mike Kuniavsky</a> and the Digital Experiences team.
+          </p>
+          <p>As an undergrad researcher my mentor was <a href="https://eldon.io/">Eldon Schoop</a>.</p>
+          <p>
+            I am always interested in hearing from undergraduates who are interested in doing AR/VR related research. My
+            goal is to support undergraduate researchers that are interested in pursuing graduate education. These are
+            the students I have mentored: <a href="http://anya0402.github.io/">Anya Agarwal</a> (UPenn MS),
+            <a href="https://nicholasjj.github.io/">Nicholas Jennings</a> (UC Berkeley MS),
+            <a href="https://xinyun-cao.github.io/">Xinyun Cao</a> (Univ. of Michigan PhD),
+            <a href="https://www.linkedin.com/in/kwk/">Frederick Kim</a> (UC Berkeley MS),
+            <a href="https://www.woojinko.com/">Woojin Ko</a> (Cornell Tech PhD).
+          </p>
+        </div>
+      </header>
+      <main>
+        <section id="announcements" class="row mb-4">
+          <div class="announcement">
+            <h5>I am currently on the job market!</h5>
+            <p>
+              I am currently looking for teaching faculty positions in academia or research scientist positions in
+              industry. Please reach out if you have a position and would like to chat!
+            </p>
+          </div>
+        </section>
+        <section id="research" class="row mb-4">
+          <div class="col">
+            <h2><span>Research</span></h2>
+            <p>
+              My research interests are primarily understanding the sense of presence while using computer systems. We
+              are able to control digital tools as if they are extensions of our bodies, similar to our relationship
+              with physical tools. Currently I am studying this phenomenon in Virtual Reality interfaces by looking at
+              presence and embodiment of VR users in scenarios where they are immersed in tasks requiring concentration.
+              In particular I am interested in multi-body interfaces where the user can extend their body schema into
+              multiple bodies in VR and do bimanual coordinated tasks across them. My work tries to connect theories
+              from Human Computer Interaction to related concepts in Embodied Cognition and Phenomenology.
+            </p>
+            <p>
+              I also have interest in how VR can augment design processes, in particular the role that VR should play in
+              early stage prototyping of design. Additionally, I am broadly interested in Graphics and Computer Vision
+              research related to VR.
+            </p>
+            <p>
+              Previously I did research at the intersection of augmented reality and computer vision, studying
+              interfaces for collecting in-situ training data and augmenting human awareness using computer vision.
+            </p>
+            {% for res in research %} {% if not res.pubonly %} {{ project(res) }} {% endif %} {% endfor %}
+          </div>
+        </section>
+        <section id="publication" class="row mb-4">
+          <div class="col">
+            <h2 class="publication"><span>Publications</span></h2>
+            {% for p in research %} {% if not p.nopub %}
+            <div class="publication">
+              <span class="authors">{{p.authors}}.</span>
+              {% if 'best-paper' in p %}
+              <span class="award"><img class="award" src="img/trophy.png" alt="Best Paper Award" /></span>
+              {% endif %} {% if 'honorable-mention' in p %}
+              <img class="award" src="img/ribbon.png" alt="Nominated for Best Paper Award" />
+              {% endif %}
+              <span class="title">
+                {% if p.acmdl %}
+                <a href="{{p.acmdl}}">{{p.title}}</a>, {% else %} {{p.title}}, {% endif %}
+              </span>
+              <span class="venue"> {{p.venue}}</span>
+            </div>
+            {% endif %} {% endfor %}
+          </div>
+        </section>
+        <section id="work" class="row mb-4">
+          <div class="col">
+            <h2><span>Industry Experience</span></h2>
+            <p>
+              I am currently looking for research scientist or teaching faculty positions. Prior to academia, I enjoyed
+              a career as a gameplay programmer in the video game industry. Designing interactive experiences is still
+              an interest of mine.
+            </p>
+            <div class="job-list">
+              {% for job in jobs %}
+              <div class="job">
+                <h5>
+                  {{job.title}}{% if 'url' in job %}, <a href="{{job.url}}">{{job.urltext}}</a>{% endif %} -
+                  {{job.location}}
+                </h5>
+                <em>{{job.time}}</em>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </section>
+        <section id="classes" class="row mb-4">
+          <div class="col">
+            <h2><span>Classes</span></h2>
+            <p>
+              My undergraduate coursework included the following upper division classes: Signals and Systems, Convex
+              Optimization, Operating Systems, Internet Architecture, CS Theory and Algorithms, Computational
+              Photography, Machine Learning and Computer Vision.
+            </p>
+            <p>I've also taken graduate coursework in HCI, AR/VR, Embedded Systems, and Data Visualization.</p>
+          </div>
+        </section>
+        <section id="hobbies" class="row mb-4">
+          <div class="col">
+            <h2><span>Hobbies</span></h2>
+            <p>
+              When I'm not doing research or programming, I like to snowboard, go bouldering, ride my motorcycle, or
+              play D&D. I am also an
+              <a href="https://www.worldcubeassociation.org/persons/2017SMIT09">amatuer speedcuber</a>.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
 
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
