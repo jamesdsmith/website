@@ -21,25 +21,58 @@
 			"name": "google scholar"
 		}
 	],
-	"research": [
+	"projects": [
 		{
 			"title": "What's the Game, then? Opportunities and Challenges for Runtime Behavior Generation",
-			"authors": " Nicholas Jennings, Han Wang, Isabel Li, <em>James Smith</em>, Bjoern Hartmann",
+			"authors": [
+				{
+					"name": "Nicholas Jennings"
+				},
+				{
+					"name": "Han Wang"
+				},
+				{
+					"name": "Isabel Li"
+				},
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
 			"description": "Dual Body Bimanual Coordination is an empirical study where users control and interact with the world through two bodies in virtual reality simultaneously. Users select and manipulate objects to perform a coordinated handoff between two bodies under the control of a single user. We investigate people's performance in doing this task, classify strategies for how they chose to coordinate their hands, report on sense of embodiment during the scenario, and share qualitative observations about user body schema.",
 			"venue": "UIST 24",
 			"pubonly": true,
-			"best-paper": true,
+			"award": "best-paper",
 			"acmdl": "https://dl.acm.org/doi/10.1145/3654777.3676358",
-			"paper": "papers/gromit.pdf",
+			"doi": "https://doi.org/10.1145/3654777.3676358",
+			"pdf": "papers/gromit.pdf",
 			"images": []
 		},
 		{
 			"title": "Dual Body Bimanual Coordination in Immersive Environments",
-			"authors": "<em>James Smith</em>, Xinyun Cao, Adolfo Ramirez-Aristizabal, Bjoern Hartmann",
+			"authors": [
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Xinyun Cao"
+				},
+				{
+					"name": "Adolfo Ramirez-Aristizabal"
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
 			"description": "Dual Body Bimanual Coordination is an empirical study where users control and interact with the world through two bodies in virtual reality simultaneously. Users select and manipulate objects to perform a coordinated handoff between two bodies under the control of a single user. We investigate people's performance in doing this task, classify strategies for how they chose to coordinate their hands, report on sense of embodiment during the scenario, and share qualitative observations about user body schema.",
 			"venue": "DIS 23",
 			"acmdl": "https://dl.acm.org/doi/10.1145/3563657.3596082",
-			"paper": "papers/dbbc.pdf",
+			"doi": "https://doi.org/10.1145/3563657.3596082",
+			"pdf": "papers/dbbc.pdf",
 			"video": "https://youtu.be/fWsPGINexYI",
 			"images": [
 				{
@@ -51,22 +84,71 @@
 		},
 		{
 			"title": "VR or Not? Investigating Interface Type and User Strategies for Interactive Design Space Exploration",
-			"authors": "Ananya Nandy, <em>James Smith</em>, Nicholas Jennings, Mike Kuniavsky, Kosa Goucher-Lambert, Bjoern Hartmann",
+			"authors": [
+				{
+					"name": "Ananya Nandy"
+				},
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Nicholas Jennings"
+				},
+				{
+					"name": "Mike Kuniavsky"
+				},
+				{
+					"name": "Kosa Goucher-Lambert"
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
 			"description": "Computational design tools can automatically generate large quantities of viable designs for a given design problem. This raises the challenge of how to enable designers to efficiently and effectively evaluate and select preferred designs from a large set of alternatives. In GeneratiVR, we present two novel interaction techniques to address this challenge, by leveraging Virtual Reality for rich, spatial user input. With these interaction methods, users can directly manipulate designs or demonstrate desired design functionality. The interactions allow users to rapidly filter through an expansive design space to specify or find their preferred designs.",
 			"venue": "ICED 23",
 			"pubonly": true,
-			"paper": "papers/vr-or-not.pdf",
+			"pdf": "papers/vr-or-not.pdf",
 			"acmdl": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/vr-or-not-investigating-interface-type-and-user-strategies-for-interactive-design-space-exploration/BFA6CE13915DD825D04B70806CCB70A3",
+			"doi": "https://doi.org/10.1017/pds.2023.386",
 			"images": [
-			]
+			],
+			"image": {
+				"url": "img/gvr/gvr-filters.png",
+				"alt": "Cup with holographic cube overlayed. Shows an interface for placing holocubes and also collecting training images."
+			}
 		},
 		{
 			"title": "GeneratiVR: Spatial Interactions in Virtual Reality to Explore Generative Design Spaces",
-			"authors": "Nicholas Jennings, Ananya Nandy, Xinyi Zhu, Yuting Wang, Fanping Sui, <em>James Smith</em>, Bjoern Hartmann",
+			"authors": [
+				{
+					"name": "Nicholas Jennings"
+				},
+				{
+					"name": "Ananya Nandy"
+				},
+				{
+					"name": "Xinyi Zhu"
+				},
+				{
+					"name": "Yuting Wang"
+				},
+				{
+					"name": "Fanping Sui"
+				},
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
 			"description": "Computational design tools can automatically generate large quantities of viable designs for a given design problem. This raises the challenge of how to enable designers to efficiently and effectively evaluate and select preferred designs from a large set of alternatives. In GeneratiVR, we present two novel interaction techniques to address this challenge, by leveraging Virtual Reality for rich, spatial user input. With these interaction methods, users can directly manipulate designs or demonstrate desired design functionality. The interactions allow users to rapidly filter through an expansive design space to specify or find their preferred designs.",
 			"venue": "CHI 2022 Extended Abstracts",
-			"paper": "papers/generativr.pdf",
+			"pdf": "papers/generativr.pdf",
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3491101.3519616",
+			"doi": "https://doi.org/10.1145/3491101.3519616",
 			"video": "https://youtu.be/qHSx5f6fRts",
 			"poster": true,
 			"images": [
@@ -89,14 +171,32 @@
 		},
 		{
 			"title": "Composing Flexibly-Organized Step-by-Step Tutorials from Linked Source Code, Snippets, and Outputs",
-			"authors": "Andrew Head, Jason Jiang, <em>James Smith</em>, Marti A. Hearst, Björn Hartmann",
+			"authors": [
+				{
+					"name": "Andrew Head"
+				},
+				{
+					"name": "Jason Jiang"
+				},
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Marti A. Hearst"
+				},
+				{
+					"name": "Björn Hartmann"
+				}
+			],
 			"description": "Programming tutorials are a pervasive, versatile medium for teaching programming. In this paper, we report on the content and structure of programming tutorials, the pain points authors experience in writing them, and a design for a tool to help improve this process. An interview study with 12 experienced tutorial authors found that they construct documents by interleaving code snippets with text and illustrative outputs. It also revealed that authors must often keep the related artifacts of source programs, snippets, and outputs consistent as a program evolves. A content analysis of 200 frequentlyreferenced tutorials on the web also found that most tutorials contain related artifacts—duplicate code and outputs generated from snippets—that an author would need to keep consistent with each other. To address these needs, we designed a tool called Torii with novel authoring capabilities. An in-lab study showed that tutorial authors can successfully use the tool for the unique affordances identified, and provides guidance for designing future tools for tutorial authoring.",
 			"venue": "CHI 2020",
-			"paper": "papers/tutorial-authoring.pdf",
+			"pdf": "papers/tutorial-authoring.pdf",
 			"video": "https://www.youtube.com/watch?v=tTzrBds7Nns",
-			"honorable-mention": true,
+			"award": "honorable-mention",
 			"pubonly": true,
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3313831.3376798",
+			"doi": "https://doi.org/10.1145/3313831.3376798",
 			"images": [
 				{
 					"url": "img/torii/tutorial-authoring.jpg",
@@ -107,11 +207,29 @@
 		},
 		{
 			"title": "LabelAR: A Spatial Guidance Interface for Fast Computer Vision Image Collection",
-			"authors": "Mike Laielli*, <em>James Smith*</em>, Giscard Biamby*, Trevor Darrell, Bjoern Hartmann",
+			"authors": [
+				{
+					"name": "Mike Laielli*"
+				},
+				{
+					"name": "James Smith*",
+					"me": true
+				},
+				{
+					"name": "Giscard Biamby*"
+				},
+				{
+					"name": "Trevor Darrell"
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
 			"description": "Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.",
 			"venue": "UIST 2019",
-			"paper": "papers/LabelAR.pdf",
+			"pdf": "papers/LabelAR.pdf",
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3332165.3347927",
+			"doi": "https://doi.org/10.1145/3332165.3347927",
 			"video": "https://www.youtube.com/watch?v=WwYAClL6MlU",
 			"images": [
 				{
@@ -134,11 +252,23 @@
 		{
 			"title": "HindSight: Enhancing Spatial Awareness by Sonifying Detected Objects in Real-Time 360-Degree Video",
 			"description": "<i>HindSight</i> increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.",
-			"authors": "Eldon Schoop, <em>James Smith</em>, Bjoern Hartmann",
+			"authors": [
+				{
+					"name": "Eldon Schoop"
+				},
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
 			"venue": "CHI 2018",
-			"paper": "papers/HindSight.pdf",
+			"pdf": "papers/HindSight.pdf",
 			"video": "https://www.youtube.com/watch?v=n5ni9usMkD4",
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3173574.3173717",
+			"doi": "https://doi.org/10.1145/3173574.3173717",
 			"images": [
 				{
 					"url": "img/hindsight/donut_diagram_s.jpg",
@@ -183,10 +313,11 @@
 					"alt": "Screenshot of the VR interface",
 					"size": "2"
 				}
-			]
+			],
+			"image": "img/gvr/gvr-filters.png"
 		}
 	],
-	"projects": [
+	"projects-old": [
 		{
 			"title": "VirtuWheel",
 			"description": "A major problem with virtual reality is the lack of feedback the user receives during interactions with virtual objects. One solution to this is to use physical props to provide haptic feedback, but this still lacks visual feedback cues that may be helpful or necessary for some tasks. This can negatively affect the user’s sense of embodiment in the virtual space. <i>VirtuWheel</i> provides visual feedback during virtual object interactions by using touch sensors on the surface a steering wheel controller which we can use to visualize interactions with the steering wheel in VR.",

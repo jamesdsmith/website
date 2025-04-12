@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    @reference border-border;
+  }
+  body {
+    @reference bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @reference bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
+}
+
+a {
+  @apply text-green-600;
+  text-decoration: none;
+}
+
+a:hover {
+  @apply text-green-700;
+  text-decoration: underline;
+}
