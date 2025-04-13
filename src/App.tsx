@@ -1,5 +1,6 @@
 import data from "./data/data.json";
 import { AwardType, Project } from "./components/Project";
+import { SocialLink } from "./components/SocialLink";
 
 function App() {
   return (
@@ -12,28 +13,11 @@ function App() {
 
           {/* Social links */}
           <div className="flex space-x-4 mt-4">
-            <a href="https://github.com/jamesdsmith" target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
-            <a href="https://linkedin.com/in/jdsmithcoder" target="_blank" rel="noopener noreferrer">
-              LinkedIn
-            </a>
-            <a
-              href="https://scholar.google.com/citations?user=qm5jHocAAAAJ&hl=en"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Google Scholar
-            </a>
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "mailto:" + "james.smith" + "@" + "berkeley.edu";
-              }}
-            >
-              Email
-            </a>
+            <SocialLink url="cv-james-smith.pdf" title="CV" />
+            <SocialLink url="https://github.com/jamesdsmith" title="GitHub" />
+            <SocialLink url="https://linkedin.com/in/jdsmithcoder" title="LinkedIn" />
+            <SocialLink url="https://scholar.google.com/citations?user=qm5jHocAAAAJ" title="Google Scholar" />
+            <SocialLink url="mailto:james.smith@berkeley.edu" title="Email" />
           </div>
 
           <p className="text-gray-700 mt-4">
