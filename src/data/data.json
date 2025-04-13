@@ -48,7 +48,7 @@
 			"award": "best-paper",
 			"acmdl": "https://dl.acm.org/doi/10.1145/3654777.3676358",
 			"doi": "https://doi.org/10.1145/3654777.3676358",
-			"pdf": "papers/gromit.pdf",
+			"pdf": "papers/jennings_gromit_24.pdf",
 			"images": [],
 			"image": {
 				"url": "img/gromit-figure1.png",
@@ -76,7 +76,7 @@
 			"venue": "DIS 23",
 			"acmdl": "https://dl.acm.org/doi/10.1145/3563657.3596082",
 			"doi": "https://doi.org/10.1145/3563657.3596082",
-			"pdf": "papers/dbbc.pdf",
+			"pdf": "papers/smith_dbbc_23.pdf",
 			"video": "https://youtu.be/fWsPGINexYI",
 			"images": [
 				{
@@ -116,7 +116,7 @@
 			"description": "Computational design tools can automatically generate large quantities of viable designs for a given design problem. This raises the challenge of how to enable designers to efficiently and effectively evaluate and select preferred designs from a large set of alternatives. In GeneratiVR, we present two novel interaction techniques to address this challenge, by leveraging Virtual Reality for rich, spatial user input. With these interaction methods, users can directly manipulate designs or demonstrate desired design functionality. The interactions allow users to rapidly filter through an expansive design space to specify or find their preferred designs.",
 			"venue": "ICED 23",
 			"pubonly": true,
-			"pdf": "papers/vr-or-not.pdf",
+			"pdf": "papers/nandy_vr_or_not_23.pdf",
 			"acmdl": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/vr-or-not-investigating-interface-type-and-user-strategies-for-interactive-design-space-exploration/BFA6CE13915DD825D04B70806CCB70A3",
 			"doi": "https://doi.org/10.1017/pds.2023.386",
 			"images": [
@@ -154,7 +154,7 @@
 			],
 			"description": "Computational design tools can automatically generate large quantities of viable designs for a given design problem. This raises the challenge of how to enable designers to efficiently and effectively evaluate and select preferred designs from a large set of alternatives. In GeneratiVR, we present two novel interaction techniques to address this challenge, by leveraging Virtual Reality for rich, spatial user input. With these interaction methods, users can directly manipulate designs or demonstrate desired design functionality. The interactions allow users to rapidly filter through an expansive design space to specify or find their preferred designs.",
 			"venue": "CHI 2022 EA",
-			"pdf": "papers/generativr.pdf",
+			"pdf": "papers/jennings_generativr_22.pdf",
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3491101.3519616",
 			"doi": "https://doi.org/10.1145/3491101.3519616",
 			"video": "https://youtu.be/qHSx5f6fRts",
@@ -203,7 +203,7 @@
 			],
 			"description": "Programming tutorials are a pervasive, versatile medium for teaching programming. In this paper, we report on the content and structure of programming tutorials, the pain points authors experience in writing them, and a design for a tool to help improve this process. An interview study with 12 experienced tutorial authors found that they construct documents by interleaving code snippets with text and illustrative outputs. It also revealed that authors must often keep the related artifacts of source programs, snippets, and outputs consistent as a program evolves. A content analysis of 200 frequentlyreferenced tutorials on the web also found that most tutorials contain related artifacts—duplicate code and outputs generated from snippets—that an author would need to keep consistent with each other. To address these needs, we designed a tool called Torii with novel authoring capabilities. An in-lab study showed that tutorial authors can successfully use the tool for the unique affordances identified, and provides guidance for designing future tools for tutorial authoring.",
 			"venue": "CHI 2020",
-			"pdf": "papers/tutorial-authoring.pdf",
+			"pdf": "papers/head_tutorial_authoring_20.pdf",
 			"video": "https://www.youtube.com/watch?v=tTzrBds7Nns",
 			"award": "honorable-mention",
 			"pubonly": true,
@@ -243,7 +243,7 @@
 			],
 			"description": "Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.",
 			"venue": "UIST 2019",
-			"pdf": "papers/LabelAR.pdf",
+			"pdf": "papers/laielli_labelar_19.pdf",
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3332165.3347927",
 			"doi": "https://doi.org/10.1145/3332165.3347927",
 			"video": "https://www.youtube.com/watch?v=WwYAClL6MlU",
@@ -285,7 +285,7 @@
 				}
 			],
 			"venue": "CHI 2018",
-			"pdf": "papers/HindSight.pdf",
+			"pdf": "papers/schoop_hindsight_18.pdf",
 			"video": "https://www.youtube.com/watch?v=n5ni9usMkD4",
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3173574.3173717",
 			"doi": "https://doi.org/10.1145/3173574.3173717",

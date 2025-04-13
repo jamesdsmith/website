@@ -10,14 +10,14 @@ interface ProjectProps {
     alt: string;
   };
   description: string;
-  acmdl?: string;
-  paper?: string;
+  doi?: string;
+  pdf?: string;
   report?: string;
   website?: string;
   video?: string;
 }
 
-export function Project({ title, authors, image, description, venue, award }: ProjectProps) {
+export function Project({ title, authors, image, description, venue, award, doi, pdf, video }: ProjectProps) {
   return (
     <div className="rounded-sm p-4 shadow-sm hover:shadow-md transition">
       <div className="flex flex-col md:flex-row md:items-start gap-4">
@@ -54,6 +54,24 @@ export function Project({ title, authors, image, description, venue, award }: Pr
             </p>
           )}
           <p className="text-gray-600 mt-1">{description}</p>
+          {/* Add link to PDF, DOI, and Video if they exist */}
+          <div className="flex flex-wrap gap-2 mt-2">
+            {pdf && (
+              <a href={pdf} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                PDF
+              </a>
+            )}
+            {doi && (
+              <a href={doi} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                Link
+              </a>
+            )}
+            {video && (
+              <a href={video} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                Video
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </div>
