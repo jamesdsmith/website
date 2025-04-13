@@ -42,7 +42,7 @@
 					"name": "Bjoern Hartmann"
 				}
 			],
-			"description": "Dual Body Bimanual Coordination is an empirical study where users control and interact with the world through two bodies in virtual reality simultaneously. Users select and manipulate objects to perform a coordinated handoff between two bodies under the control of a single user. We investigate people's performance in doing this task, classify strategies for how they chose to coordinate their hands, report on sense of embodiment during the scenario, and share qualitative observations about user body schema.",
+			"description": "GROMIT is a tool that generates game interactions in real-time, enabling games to adapt to player actions. Built for Unity, it was tested through prototypes like a puzzle escape room, traffic simulation, and adventure game. Developer interviews found the concept promising but raised concerns about quality, player expectations, and workflow integration, suggesting the need for better safeguards.",
 			"venue": "UIST 24",
 			"pubonly": true,
 			"award": "best-paper",
@@ -72,7 +72,7 @@
 					"name": "Bjoern Hartmann"
 				}
 			],
-			"description": "Dual Body Bimanual Coordination is an empirical study where users control and interact with the world through two bodies in virtual reality simultaneously. Users select and manipulate objects to perform a coordinated handoff between two bodies under the control of a single user. We investigate people's performance in doing this task, classify strategies for how they chose to coordinate their hands, report on sense of embodiment during the scenario, and share qualitative observations about user body schema.",
+			"description": "This empirical study explores how users can control multiple virtual bodies in VR to perform coordinated tasks, such as passing objects between a first-person and third-person body. A study with 19 participants showed that people can successfully complete complex interactions using two bodies. The results highlight user strategies and how people perceive their virtual embodiment, which we connect to concepts in embodied cognition and phenomenology.",
 			"venue": "DIS 23",
 			"acmdl": "https://dl.acm.org/doi/10.1145/3563657.3596082",
 			"doi": "https://doi.org/10.1145/3563657.3596082",
@@ -113,7 +113,7 @@
 					"name": "Bjoern Hartmann"
 				}
 			],
-			"description": "Computational design tools can automatically generate large quantities of viable designs for a given design problem. This raises the challenge of how to enable designers to efficiently and effectively evaluate and select preferred designs from a large set of alternatives. In GeneratiVR, we present two novel interaction techniques to address this challenge, by leveraging Virtual Reality for rich, spatial user input. With these interaction methods, users can directly manipulate designs or demonstrate desired design functionality. The interactions allow users to rapidly filter through an expansive design space to specify or find their preferred designs.",
+			"description": "Designers explore large design spaces differently depending on whether they use 2D or VR interfaces, with each offering unique advantages. A study with 28 participants found that 2D interfaces are better for broadly comparing multiple options, while VR helps users deeply understand individual designs in context. These findings suggest that interface choice influences design workflows, balancing efficiency in comparison with immersion in evaluation.",
 			"venue": "ICED 23",
 			"pubonly": true,
 			"pdf": "papers/nandy_vr_or_not_23.pdf",
@@ -201,7 +201,7 @@
 					"name": "Björn Hartmann"
 				}
 			],
-			"description": "Programming tutorials are a pervasive, versatile medium for teaching programming. In this paper, we report on the content and structure of programming tutorials, the pain points authors experience in writing them, and a design for a tool to help improve this process. An interview study with 12 experienced tutorial authors found that they construct documents by interleaving code snippets with text and illustrative outputs. It also revealed that authors must often keep the related artifacts of source programs, snippets, and outputs consistent as a program evolves. A content analysis of 200 frequentlyreferenced tutorials on the web also found that most tutorials contain related artifacts—duplicate code and outputs generated from snippets—that an author would need to keep consistent with each other. To address these needs, we designed a tool called Torii with novel authoring capabilities. An in-lab study showed that tutorial authors can successfully use the tool for the unique affordances identified, and provides guidance for designing future tools for tutorial authoring.",
+			"description": "Programming tutorials often struggle with maintaining consistency between code snippets, outputs, and explanations as content evolves. Interviews with 12 authors and analysis of 200 tutorials revealed these challenges, leading to the development of Torii—a tool that automates synchronizing code and outputs during tutorial creation. Our study showed Torii effectively addresses these pain points, offering insights for future tools aimed at simplifying technical documentation workflows.",
 			"venue": "CHI 2020",
 			"pdf": "papers/head_tutorial_authoring_20.pdf",
 			"video": "https://www.youtube.com/watch?v=tTzrBds7Nns",
@@ -241,7 +241,7 @@
 					"name": "Bjoern Hartmann"
 				}
 			],
-			"description": "Computer vision is applied in an ever expanding range of applications, many of which require custom training data to perform well. We present a novel interface for rapid collection and labeling of training images to improve computer vision based object detectors. <i>LabelAR</i> leverages the spatial tracking capabilities of an AR-enabled camera, allowing users to place persistent bounding volumes that stay centered on real-world objects. The interface then guides the user to move the camera to cover a wide variety of viewpoints. We eliminate the need for post-hoc manual labeling of images by automatically projecting 2D bounding boxes around objects in the images as they are captured from AR-marked viewpoints. In a user study with 12 participants, <i>LabelAR</i> significantly outperforms existing approaches in terms of the trade-off between model performance and collection time.",
+			"description": "Training custom computer vision models often requires time-consuming manual data collection and labeling. LabelAR simplifies this by using augmented reality (AR) to let users mark objects with 3D bounding boxes, then automatically captures labeled images from diverse angles as the user moves the camera around. A study with 12 participants showed LabelAR achieves better model accuracy with less effort compared to traditional methods, streamlining the process of creating datasets for object instance recognition.",
 			"venue": "UIST 2019",
 			"pdf": "papers/laielli_labelar_19.pdf",
 			"acmdl": "https://dl.acm.org/doi/abs/10.1145/3332165.3347927",
@@ -271,7 +271,7 @@
 		},
 		{
 			"title": "HindSight: Enhancing Spatial Awareness by Sonifying Detected Objects in Real-Time 360-Degree Video",
-			"description": "<i>HindSight</i> increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.",
+			"description": "HindSight increases the environmental awareness of cyclists by warning them of vehicles approaching from outside their visual field. A panoramic camera mounted on a bicycle helmet streams real-time, 360-degree video to a laptop running YOLOv2, a neural object detector designed for real-time use. Detected vehicles are passed through a filter bank to find the most relevant. Resulting vehicles are sonified using bone conduction headphones, giving cyclists added margin to react.",
 			"authors": [
 				{
 					"name": "Eldon Schoop"
