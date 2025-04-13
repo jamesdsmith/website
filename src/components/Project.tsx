@@ -20,14 +20,8 @@ interface ProjectProps {
 export function Project({ title, authors, image, description, venue, award }: ProjectProps) {
   return (
     <div className="rounded-sm p-4 shadow-sm hover:shadow-md transition">
-      <div className="flex flex-col md:flex-row gap-4">
-        {image && (
-          <img
-            src={image.url}
-            alt={image.alt}
-            className="w-full md:w-32 md:h-32 object-cover rounded-md shadow-sm flex-shrink-0"
-          />
-        )}
+      <div className="flex flex-col md:flex-row md:items-start gap-4">
+        {image && <img src={image.url} alt={image.alt} className="w-full md:w-48 h-auto rounded-md object-contain" />}
         <div className="flex flex-col">
           <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
           <div className="flex flex-wrap items-center mt-2">
