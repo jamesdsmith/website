@@ -56,6 +56,28 @@
 			}
 		},
 		{
+			"title": "iJedi: Improving Bimanual Ray Pointing Performance Through Multiple Bodies",
+			"authors": [
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Nicholas Jennings"
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
+			"description": "iJedi enhances a VR bimanual interaction technique (iSith) by strategically spacing virtual arms farther apart and aligning them relative to targets in the environment. Testing with 19 participants showed iJedi reduces errors compared to iSith while maintaining similar speed, suggesting that extended body interfaces can optimize complex tasks. The results highlight how virtual body design, like arm placement and spacing, can refine interaction techniques without sacrificing user performance.",
+			"venue": "(in submision)",
+			"images": [],
+			"image": {
+				"url": "img/jedi-figure.png",
+				"alt": "Diagram showing two avatars in VR, one of the avatars is missing an arm, which appears on the other. Two laser pointers emerge from the arm on each body, and a 3d sphere cursor is places where they intersect."
+			}
+		},
+		{
 			"title": "Dual Body Bimanual Coordination in Immersive Environments",
 			"authors": [
 				{
