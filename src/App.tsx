@@ -38,6 +38,27 @@ function App() {
       </header>
 
       <section className="mb-10">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Research</h2>
+        <p className="mt-2">
+          My research broadly examines how emerging technologies give rise to new forms of media and the unique
+          affordances these mediums offer. I am particularly interested in exploring how these technologies can foster
+          new modes of interactivity and enhance human creativity.
+        </p>
+        <p className="mt-2">
+          My dissertation work explores the sense of presence and embodiment in computer systems, focusing on how
+          digital tools can feel like extensions of our bodies, particularly in <strong>Virtual Reality (VR)</strong>{" "}
+          interfaces. I study multi-body VR interfaces that allow users to extend their body schema into multiple bodies
+          and perform coordinated tasks, connecting theories from Human-Computer Interaction, Embodied Cognition, and
+          Phenomenology.
+        </p>
+        <p className="mt-2">
+          Lately I have been interested in what new types of media <strong>Generative AI</strong> can enable. I have
+          explored Large Lanuage Models as a co-creator of interactive experiences, and new ways for artists to express
+          their intent with diffusion models.
+        </p>
+      </section>
+
+      <section className="mb-10">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Projects</h2>
         <div className="space-y-4">
           {data.projects.map((project, idx) => (
@@ -48,10 +69,14 @@ function App() {
       <section>
         {/* mentees, listed in data.mentees */}
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Mentorship</h2>
-        <p className="mb-4">
-          I am always interested in hearing from undergraduates who are interested in doing AR/VR related research. My
-          goal is to support undergraduate researchers that are interested in pursuing graduate education.
-        </p>
+        <div className="space-y-4 mb-4">
+          <p>
+            My goal is to support undergraduates that want to pursue graduate education. I am always interested in
+            hearing from undergraduates who would like to help contribute to my research. If you plan to reach out,
+            please let me know something specific about one of my projects that you find interesting!
+          </p>
+          <p>I have mentored the following undergrads</p>
+        </div>
         <div className="space-y-4">
           <ul className="space-y-2">
             {data.mentees.map((mentee) => (
