@@ -2,6 +2,7 @@ import data from "./data/data.json";
 import { AwardType, Project } from "./components/Project";
 import { SocialLink } from "./components/SocialLink";
 import TeachingEntry from "./components/TeachingEntry";
+import { Section } from "./components/Section";
 
 function App() {
   return (
@@ -38,8 +39,7 @@ function App() {
         </div>
       </header>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Research</h2>
+      <Section title="Research">
         <p className="mt-2">
           My research broadly examines how emerging technologies give rise to new forms of media and the unique
           affordances these mediums offer. I am particularly interested in exploring how these technologies can foster
@@ -47,7 +47,7 @@ function App() {
         </p>
         <p className="mt-2">
           My dissertation work explores the sense of presence and embodiment in computer systems, focusing on how
-          digital tools can feel like extensions of our bodies, particularly in <strong>Virtual Reality (VR)</strong>{" "}
+          digital tools can feel like extensions of our bodies, particularly in <strong>Virtual Reality</strong>{" "}
           interfaces. I study multi-body VR interfaces that allow users to extend their body schema into multiple bodies
           and perform coordinated tasks, connecting theories from Human-Computer Interaction, Embodied Cognition, and
           Phenomenology.
@@ -57,19 +57,17 @@ function App() {
           explored Large Lanuage Models as a co-creator of interactive experiences, and new ways for artists to express
           their intent with diffusion models.
         </p>
-      </section>
+      </Section>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Projects</h2>
+      <Section title="Projects">
         <div className="space-y-4">
           {data.projects.map((project, idx) => (
             <Project key={idx} {...project} award={project.award as AwardType} />
           ))}
         </div>
-      </section>
-      <section>
-        {/* mentees, listed in data.mentees */}
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Mentorship</h2>
+      </Section>
+
+      <Section title="Mentorship">
         <div className="space-y-4 mb-4">
           <p>
             My goal is to support undergraduates that want to pursue graduate education. I am always interested in
@@ -95,11 +93,9 @@ function App() {
             ))}
           </ul>
         </div>
-      </section>
+      </Section>
 
-      <section className="mt-10">
-        {/* mentees, listed in data.mentees */}
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Teaching</h2>
+      <Section title="Teaching">
         <div className="space-y-4 mb-4">
           <p>
             I have taught the following courses at UC Berkeley. I am always looking for new ways to improve my teaching
@@ -113,7 +109,7 @@ function App() {
             ))}
           </ul>
         </div>
-      </section>
+      </Section>
     </main>
   );
 }
