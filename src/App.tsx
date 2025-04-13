@@ -37,12 +37,37 @@ function App() {
         </div>
       </header>
 
-      <section>
+      <section className="mb-10">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Projects</h2>
         <div className="space-y-4">
           {data.projects.map((project, idx) => (
             <Project key={idx} {...project} award={project.award as AwardType} />
           ))}
+        </div>
+      </section>
+      <section>
+        {/* mentees, listed in data.mentees */}
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Mentorship</h2>
+        <p className="mb-4">
+          I am always interested in hearing from undergraduates who are interested in doing AR/VR related research. My
+          goal is to support undergraduate researchers that are interested in pursuing graduate education.
+        </p>
+        <div className="space-y-4">
+          <ul className="space-y-2">
+            {data.mentees.map((mentee) => (
+              <li key={mentee.url}>
+                <a
+                  href={mentee.url}
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {mentee.name}
+                </a>{" "}
+                <span className="text-gray-500">({mentee.outcome})</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
     </main>

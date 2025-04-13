@@ -393,5 +393,32 @@
 			"location": "Zombie Studios",
 			"time": "May 2005 - June 2008"
 		}
+	],
+	"mentees": [
+		{
+			"name": "Anya Agarwal",
+			"url": "http://anya0402.github.io/",
+			"outcome": "UPenn MS"
+		},
+		{
+			"name": "Nicholas Jennings",
+			"url": "https://nicholasjj.github.io/",
+			"outcome": "UC Berkeley MS"
+		},
+		{
+			"name": "Xinyun Cao",
+			"url": "https://xinyun-cao.github.io/",
+			"outcome": "Univ. of Michigan PhD"
+		},
+		{
+			"name": "Frederick Kim",
+			"url": "https://www.linkedin.com/in/kwk/",
+			"outcome": "UC Berkeley MS"
+		},
+		{
+			"name": "Woojin Ko",
+			"url": "https://www.woojinko.com/",
+			"outcome": "Cornell Tech PhD"
+		}
 	]
 }
