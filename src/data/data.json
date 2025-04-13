@@ -420,5 +420,50 @@
 			"url": "https://www.woojinko.com/",
 			"outcome": "Cornell Tech PhD"
 		}
+	],
+	"teaching": [
+		{
+			"title": "CS 160: User Interface Software and Technology",
+			"location": "UC Berkeley",
+			"semester": "Spring 2025",
+			"role": "GSI"
+		},
+		{
+			"title": "CS 260B - HCI Research",
+			"location": "UC Berkeley",
+			"semester": "Fall 2024",
+			"role": "GSI"
+		},
+		{
+			"title": "CS 160: User Interface Software and Technology",
+			"location": "UC Berkeley",
+			"semester": "Summer 2025",
+			"role": "GSI"
+		},
+		{
+			"title": "CS 294-137 - Immersive Computing and Virtual Reality",
+			"location": "UC Berkeley",
+			"semester": "Fall 2023",
+			"role": "GSI"
+		},
+		{
+			"title": "EECS 149/249A - Embedded Systems",
+			"location": "UC Berkeley",
+			"semester": "Spring 2021",
+			"role": "GSI",
+			"award": "Outstanding GSI Award"
+		},
+		{
+			"title": "Peer-Led Team Learning - Physics",
+			"location": "Sierra College",
+			"semester": "Fall 2014",
+			"role": "Peer Mentor"
+		},
+		{
+			"title": "Peer-Led Team Learning - Physics",
+			"location": "Sierra College",
+			"semester": "Spring 2015",
+			"role": "Peer Mentor"
+		}
 	]
 }

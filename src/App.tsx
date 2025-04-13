@@ -1,6 +1,7 @@
 import data from "./data/data.json";
 import { AwardType, Project } from "./components/Project";
 import { SocialLink } from "./components/SocialLink";
+import TeachingEntry from "./components/TeachingEntry";
 
 function App() {
   return (
@@ -91,6 +92,24 @@ function App() {
                 </a>{" "}
                 <span className="text-gray-500">({mentee.outcome})</span>
               </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="mt-10">
+        {/* mentees, listed in data.mentees */}
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Teaching</h2>
+        <div className="space-y-4 mb-4">
+          <p>
+            I have taught the following courses at UC Berkeley. I am always looking for new ways to improve my teaching
+            and would love to hear from students about their experience in my classes.
+          </p>
+        </div>
+        <div>
+          <ul className="space-y-2">
+            {data.teaching.map((entry, idx) => (
+              <TeachingEntry key={idx} {...entry} />
             ))}
           </ul>
         </div>
