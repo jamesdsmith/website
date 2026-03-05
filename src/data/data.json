@@ -5,7 +5,7 @@
 			"class": "fas fa-envelope",
 			"name": "email"
 		},
-				{
+		{
 			"url": "https://github.com/jamesdsmith",
 			"class": "fab fa-github",
 			"name": "github"
@@ -22,6 +22,36 @@
 		}
 	],
 	"projects": [
+		{
+			"title": "Noise Pilot: Enabling Artistic Workflow Composition with Diffusion-Based Image Generation",
+			"authors": [
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Shm Garanganao Almeda"
+				},
+				{
+					"name": "Tim Aveni"
+				},
+				{
+					"name": "Anya Agarwal"
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
+			"description": "Noise Pilot is a tool that enables artists fine grained control over diffusion models by allowing them to compose and edit programs that control the iterative diffusion algorithm. This allows a new depth of control, but the tool also supports existing interactions with diffusion (via prompting and image editing). We analyze how users navigate these various levels of control in a 2 week deployment, where we find evidence that this approach supports vertical movement across all depths.",
+			"venue": "CHI 2026 (To Appear)",
+			"pubonly": true,
+			"pdf": "papers/smith_noisepilot_26.pdf",
+			"images": [],
+			"image": {
+				"url": "img/np-fig1.png",
+				"alt": "We characterize diffusion tools as existing in a spectrum of accessible and inaccessible control."
+			}
+		},
 		{
 			"title": "What's the Game, then? Opportunities and Challenges for Runtime Behavior Generation",
 			"authors": [
@@ -141,8 +171,7 @@
 			"pdf": "papers/nandy_vr_or_not_23.pdf",
 			"acmdl": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/vr-or-not-investigating-interface-type-and-user-strategies-for-interactive-design-space-exploration/BFA6CE13915DD825D04B70806CCB70A3",
 			"doi": "https://doi.org/10.1017/pds.2023.386",
-			"images": [
-			],
+			"images": [],
 			"image": {
 				"url": "img/vr-or-not.png",
 				"alt": "Screenshot of a 2d design interface next to a 3d design interface."
@@ -392,16 +421,16 @@
 	],
 	"jobs": [
 		{
-			"title": "Research Scientist", 
-			"location": "Microsoft Research", 
-			"url": "https://www.microsoft.com/en-us/research/group/epic/", 
+			"title": "Research Scientist",
+			"location": "Microsoft Research",
+			"url": "https://www.microsoft.com/en-us/research/group/epic/",
 			"urltext": "EPIC Group",
 			"time": "May 2021 - August 2021"
 		},
 		{
-			"title": "VR Software Engineer", 
-			"location": "UC Berkeley", 
-			"url": "http://jacobsinstitute.berkeley.edu", 
+			"title": "VR Software Engineer",
+			"location": "UC Berkeley",
+			"url": "http://jacobsinstitute.berkeley.edu",
 			"urltext": "Jacobs Institute for Design Innovation",
 			"time": "January 2019 - May 2019"
 		},
@@ -417,6 +446,11 @@
 		}
 	],
 	"mentees": [
+		{
+			"name": "Jessie Liu",
+			"url": "https://www.linkedin.com/in/jess04liu/",
+			"outcome": "Current"
+		},
 		{
 			"name": "Anya Agarwal",
 			"url": "http://anya0402.github.io/",
@@ -440,10 +474,22 @@
 		{
 			"name": "Woojin Ko",
 			"url": "https://www.woojinko.com/",
-			"outcome": "Cornell Tech PhD"
+			"outcome": "Cornell Tech"
 		}
 	],
 	"teaching": [
+		{
+			"title": "CS 160: User Interface Software and Technology",
+			"location": "UC Berkeley",
+			"semester": "Fall 2025",
+			"role": "GSI"
+		},
+		{
+			"title": "CS 160: User Interface Software and Technology",
+			"location": "UC Berkeley",
+			"semester": "Summer 2025",
+			"role": "GSI"
+		},
 		{
 			"title": "CS 160: User Interface Software and Technology",
 			"location": "UC Berkeley",
