@@ -45,6 +45,7 @@
 			"description": "Noise Pilot is a tool that enables artists fine grained control over diffusion models by allowing them to compose and edit programs that control the iterative diffusion algorithm. This allows a new depth of control, but the tool also supports existing interactions with diffusion (via prompting and image editing). We analyze how users navigate these various levels of control in a 2 week deployment, where we find evidence that this approach supports vertical movement across all depths.",
 			"venue": "CHI 2026 (To Appear)",
 			"pubonly": true,
+			"award": "honorable-mention",
 			"pdf": "papers/smith_noisepilot_26.pdf",
 			"images": [],
 			"image": {
