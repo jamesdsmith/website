@@ -23,6 +23,38 @@
 	],
 	"projects": [
 		{
+			"title": "Predicting Tool Extension in VR Interactions Using Gaze Features",
+			"authors": [
+				{
+					"name": "James Smith",
+					"me": true
+				},
+				{
+					"name": "Samia Menon"
+				},
+				{
+					"name": "Jessie Liu"
+				},
+				{
+					"name": "Vivian Hsinyueh Chan"
+				},
+				{
+					"name": "Bjoern Hartmann"
+				}
+			],
+			"description": "Tool extension is the state where a tool becomes a transparent part of the body instead of something the user has to think about, and it is hard to measure moment to moment. In this project, we try to measure this tool extension state using the eye trackers built into VR headsets. In a study with 18 participants, people used three VR hammers: a standard one, one with randomly remapped controls, and one held by a third-person avatar. Their gaze reliably separated smooth tool use from struggling, because users who were struggling looked more at the tool and around the scene. We used these gaze features to build a real-time classifier that predicts tool extension (90.5% F1), and we present a design space of applications it enables.",
+			"venue": "UIST 2026",
+			"pubonly": true,
+			"pdf": "papers/smith_predicting_tool_extension_26.pdf",
+			"acmdl": "https://dl.acm.org/doi/10.1145/3830398.3830684",
+			"doi": "https://doi.org/10.1145/3830398.3830684",
+			"images": [],
+			"image": {
+				"url": "img/tool-ext-fig.png",
+				"alt": "Three VR tool conditions: a hammer, an adaptation hammer with remapped controls, and a hammer controlled by a third-person avatar, with the gaze patterns expected in each."
+			}
+		},
+		{
 			"title": "Noise Pilot: Enabling Artistic Workflow Composition with Diffusion-Based Image Generation",
 			"authors": [
 				{
@@ -43,10 +75,12 @@
 				}
 			],
 			"description": "Noise Pilot is a tool that enables artists fine grained control over diffusion models by allowing them to compose and edit programs that control the iterative diffusion algorithm. This allows a new depth of control, but the tool also supports existing interactions with diffusion (via prompting and image editing). We analyze how users navigate these various levels of control in a 2 week deployment, where we find evidence that this approach supports vertical movement across all depths.",
-			"venue": "CHI 2026 (To Appear)",
+			"venue": "CHI 2026",
 			"pubonly": true,
 			"award": "honorable-mention",
 			"pdf": "papers/smith_noisepilot_26.pdf",
+			"acmdl": "https://dl.acm.org/doi/10.1145/3772318.3790531",
+			"doi": "https://doi.org/10.1145/3772318.3790531",
 			"images": [],
 			"image": {
 				"url": "img/np-fig1.png",

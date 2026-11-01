@@ -11,7 +11,7 @@ function App() {
         <img src="/img/james-lisbon.png" alt="James Smith" className="w-48 h-48 rounded-xl object-cover sm:mb-0 mb-4" />
         <div>
           <h1 className="text-3xl font-bold text-gray-900">James Smith</h1>
-          <p className="text-gray-600 mt-2">PhD student in Human-Computer Interaction at UC Berkeley</p>
+          {/* <p className="text-gray-600 mt-2">PhD student in Human-Computer Interaction at UC Berkeley</p> */}
 
           {/* Social links */}
           <div className="flex space-x-4 mt-4">
@@ -23,8 +23,8 @@ function App() {
           </div>
 
           <p className="text-gray-700 mt-4">
-            I am a Computer Science PhD student at UC Berkeley, advised by{" "}
-            <a href="https://people.eecs.berkeley.edu/~bjoern/">Björn Hartmann</a>. I completed my MS and BS in
+            I completed my PhD in Computer Science at UC Berkeley in 2026 where I was advised by{" "}
+            <a href="https://people.eecs.berkeley.edu/~bjoern/">Björn Hartmann</a>. I previously did my MS and BS in
             Electrical Engineering and Computer Science at UC Berkeley.
           </p>
           <p className="text-gray-700 mt-2">
